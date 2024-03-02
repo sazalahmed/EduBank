@@ -274,6 +274,53 @@ $(function () {
     });
 
 
+    // Select js
+    $('.select_js').niceSelect();
+
+
+    // Menu search
+    $(".menu_search_btn").on("click", function () {
+        $(".wsus__menu_3_search_area").addClass("show_search");
+    });
+    $(".close_search").on("click", function () {
+        $(".wsus__menu_3_search_area").removeClass("show_search");
+    });
+
+
+
+    // team slider
+    $('.team_slider_large').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        vertical: true,
+    });
+
+    $('.team_slider_small').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.team_slider_large',
+        centerMode: true,
+        centerPadding: "0",
+        focusOnSelect: true,
+        vertical: true,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-up nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-down prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            }
+        ]
+    });
+
+
 
 
 });
