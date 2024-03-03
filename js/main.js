@@ -292,6 +292,7 @@ $(function () {
     $('.team_slider_large').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
         arrows: false,
         dots: false,
         vertical: true,
@@ -300,6 +301,7 @@ $(function () {
     $('.team_slider_small').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
+        autoplay: true,
         asNavFor: '.team_slider_large',
         centerMode: true,
         centerPadding: "0",
@@ -319,6 +321,89 @@ $(function () {
             }
         ]
     });
+
+
+    // Testimonial 3 Slider
+    $('.testimonial_3_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
+    // Cursore pointer
+    init_pointer({});
+
+
+    // Top courses slider
+    $('.top_courses_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
 
 
 
