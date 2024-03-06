@@ -235,11 +235,18 @@ $(function () {
 
 
     // Testimonial 2 Slider
-    $('.testimonial_2_slider').slick({
+    $('.testimonial_slider_2_large').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
+        arrows: false,
+        fade: false,
+        asNavFor: '.testimonial_slider_2_small'
+    });
+
+    $('.testimonial_slider_2_small').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.testimonial_slider_2_large',
         dots: false,
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
