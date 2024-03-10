@@ -267,6 +267,42 @@ $(function () {
     });
 
 
+    //  related course Slider
+    $('.related_course_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
     // team slider
     $('.team_slider_large').slick({
@@ -487,6 +523,35 @@ $(function () {
             }
         ]
     });
+
+
+    $('.categoty_list li').on("click", function () {
+        var isActive = $(this).hasClass("active");
+        var submenu = $(this).find('.wsus__sidebar_sub_category');
+
+        // get the height of the child of submenu
+        var dynamicHeight = 0;
+        $(submenu).find('div').each(function () {
+            dynamicHeight += $(this).outerHeight(true);
+        });
+
+        $(".categoty_list li").removeClass("active");
+
+        // and remove the height of all the submenu
+        $(".categoty_list li .wsus__sidebar_sub_category").css("height", "0px");
+
+        // toggle the button
+        if ($(this).hasClass("active")) {
+            $(".categoty_list li").removeClass("active");
+            $(submenu).css("height", "0px");
+        }
+
+        if (!isActive) {
+            $(this).addClass("active");
+            $(submenu).css("height", dynamicHeight + "px");
+        }
+    });
+
 
 
 });
