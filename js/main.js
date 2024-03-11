@@ -525,6 +525,7 @@ $(function () {
     });
 
 
+    // sidebar category dropdown
     $('.categoty_list li').on("click", function () {
         var isActive = $(this).hasClass("active");
         var submenu = $(this).find('.wsus__sidebar_sub_category');
@@ -554,4 +555,34 @@ $(function () {
 
 
 
+
+
+    // Range Slider
+    $('.basic').alRangeSlider();
+    const options = {
+        range: { min: 10, max: 1000, step: 1 },
+        initialSelectedValues: { from: 200, to: 800 },
+        grid: { minTicksStep: 1, marksStep: 5 },
+        theme: "dark",
+    };
+
+    $('.range_slider').alRangeSlider(options);
+    const options2 = {
+        orientation: "vertical"
+    };
+
+
+    //   if (rangeSlider != null) {
+    //     noUiSlider.create(rangeSlider, {
+    //       start: [60, 140],
+    //       step: 1,
+    //       range: {
+    //         min: [10],
+    //         max: [200]
+    //       },
+    //       format: moneyFormat,
+    //       connect: true
+    //     });
+
 });
+
