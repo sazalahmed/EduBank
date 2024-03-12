@@ -555,8 +555,6 @@ $(function () {
 
 
 
-
-
     // Range Slider
     $('.basic').alRangeSlider();
     const options = {
@@ -572,17 +570,31 @@ $(function () {
     };
 
 
-    //   if (rangeSlider != null) {
-    //     noUiSlider.create(rangeSlider, {
-    //       start: [60, 140],
-    //       step: 1,
-    //       range: {
-    //         min: [10],
-    //         max: [200]
-    //       },
-    //       format: moneyFormat,
-    //       connect: true
-    //     });
+    // Pregress Bar
+    $(document).ready(function () {
+        $('#bar1').barfiller({});
+        $('#bar2').barfiller({});
+        $('#bar3').barfiller({});
+        $('#bar4').barfiller({});
+        $('#bar5').barfiller({});
+    });
+
+
+    // Select Rating
+    $('#starRating').starRating({})
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });
 
