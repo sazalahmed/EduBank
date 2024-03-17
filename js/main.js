@@ -584,7 +584,7 @@ $(function () {
     $('#starRating').starRating({})
 
 
-
+    // Calendar Js
     $(function () {
         $('#calendar_js').calendar({
             months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -593,8 +593,26 @@ $(function () {
     });
 
 
+    // Product Details Slider
+    $('.product_slider_large').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: false,
+        asNavFor: '.product_slider_small'
+    });
 
-
+    $('.product_slider_small').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        asNavFor: '.product_slider_large',
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        centerPadding: "0",
+        focusOnSelect: true,
+        vertical: true,
+    });
 
 
 

@@ -7923,6 +7923,12 @@ footer {
     border-radius: 0;
 }
 
+.wsus__courses_review_input .form-check label {
+    color: var(--paraColor);
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /*============================
     COURSES DETAILS END
 ============================*/
@@ -7946,8 +7952,6 @@ footer {
 .instructor_finder_header .check_list {
     gap: 30px;
 }
-
-.instructor_finder_header .check_list li {}
 
 .instructor_finder_header .form-switch {
     padding-left: 0;
@@ -8984,20 +8988,404 @@ footer {
 /*============================
     PRODUCT PAGE START
 ============================*/
-.wsus__course_product_page {}
-
 .wsus__course_product_page .title {
     margin-bottom: 25px;
 }
-
 
 .wsus__course_product_page .wsus__sidebar_course_lavel h3 {
     margin-top: 0;
 }
 
+/*============================
+    PRODUCT PAGE END
+============================*/
+
+
+/*============================
+    PRODUCT DETAILS SDTART
+============================*/
+.wsus__product_details {}
+
+.product_slider_small {
+    margin-left: 0;
+}
+
+.product_slider_small_item {
+    width: 80px;
+    height: 90px;
+    background: var(--colorWhite);
+    box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    padding: 8px 15px;
+    margin: 5px 0px;
+    border: 1px solid var(--colorWhite);
+}
+
+
+.wsus__product_details_img {}
+
+.product_slider_large {}
+
+.product_slider_large_item {
+    height: 630px;
+    margin-left: 17px;
+    margin-top: 5px;
+    margin-right: 65px;
+}
+
+
+
+
+
+
+.wsus__product_details_text {
+    /* padding-left: 20px; */
+}
+
+.wsus__product_details_text .rating {
+    border: 1px solid rgba(30, 30, 47, 0.10);
+    background: rgba(30, 30, 47, 0.00);
+    display: inline-block;
+    padding: 2px 7px;
+    color: var(--ratingColor);
+}
+
+.wsus__product_details_text .rating span {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.wsus__product_details_text h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.wsus__product_details_text .description {
+    color: rgba(30, 30, 47, 0.70);
+}
+
+.wsus__product_details_text .price {
+    color: var(--colorPrimary);
+    font-size: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+.wsus__product_details_text .price del {
+    color: var(--paraColor);
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.wsus__product_details_text .stock {
+    color: #43D477;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 23px;
+}
+
+.wsus__product_details_text .stock::after {
+    position: absolute;
+    content: "\f00c";
+    font-family: "font awesome 5 free";
+    font-size: 7px;
+    font-weight: 600;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    background: #43D477;
+    color: var(--colorWhite);
+    top: 1px;
+    left: 0;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.wsus__product_details_text .wsus__btn_area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.wsus__product_details_text .qnty {
+    width: 90px;
+    height: 46px;
+    position: relative;
+    border: 1px solid rgba(30, 30, 47, 0.10);
+    overflow: hidden;
+}
+
+.wsus__product_details_text .qnty input {
+    width: auto;
+    padding: 0;
+    padding-left: 19px;
+    font-weight: 600;
+    color: var(--colorBlack);
+}
+
+.wsus__product_details_text .qnty input::placeholder {
+    color: var(--colorBlack);
+}
+
+.wsus__product_details_text .qnty button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 50%;
+    border-left: 1px solid rgba(30, 30, 47, 0.10);
+    background: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__product_details_text .qnty button:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.wsus__product_details_text .qnty .bottom_arrow {
+    top: auto;
+    bottom: 0;
+}
+
+.wsus__product_details_text .wishlist {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 42px;
+    background: var(--colorWhite);
+    border: 1px solid rgba(30, 30, 47, 0.10);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__product_details_text .wishlist img {
+    width: 17px !important;
+    height: auto !important;
+}
+
+.wsus__product_details_text .wishlist:hover {
+    background: var(--colorOrange);
+    border-color: var(--colorOrange);
+}
+
+.wsus__product_details_text .common_btn_2 {
+    background: var(--colorOrange);
+    color: var(--colorBlack);
+    border-color: var(--colorOrange);
+}
+
+.wsus__product_details_text .common_btn_2:after {
+    background: var(--colorBlack);
+}
+
+.wsus__product_details_text .common_btn_2:hover {
+    background: var(--colorBlack);
+    border-color: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.wsus__product_details_text .list li {
+    color: var(--paraColor);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.wsus__product_details_text .list li span {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.product_slider_small .slick-current .product_slider_small_item {
+    border-color: var(--colorPrimary);
+}
+
+.peoduct_details_description,
+.peoduct_details_additional_info,
+.peoduct_details_reviews {
+    background: var(--colorWhite);
+    box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    padding: 50px;
+}
+
+.peoduct_details_description h2,
+.peoduct_details_additional_info h2,
+.peoduct_details_reviews h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.peoduct_details_description p {
+    margin-top: 20px;
+}
+
+.peoduct_details_additional_info ul {
+    margin-top: 20px;
+}
+
+.peoduct_details_additional_info ul li {
+    color: var(--paraColor);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 38px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.peoduct_details_additional_info ul li span {
+    font-size: 18px;
+    display: inline-block;
+    width: 200px;
+}
+
+.peoduct_details_additional_info ul li::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: var(--colorPrimary);
+    top: 15px;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*============================
+    PRODUCT DETAILS END
+============================*/
+
+
+/*============================
+    CONTACT US START
+============================*/
+.wsus__contact_us {}
+
+.wsus__contact_info {
+    background: var(--colorWhite);
+    box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    padding: 50px 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.wsus__contact_info .icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__contact_info h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.wsus__contact_info p,
+.wsus__contact_info a {
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    color: var(--paraColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__contact_info a:hover {
+    color: var(--colorPrimary);
+}
+
+
+
+
+.wsus__contact_form_area {
+    background: var(--colorWhite);
+    box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    padding: 20px;
+}
+
+.wsus__contact_form_img {
+    margin-right: 30px;
+}
+
+
+.wsus__contact_form {}
+
+.wsus__contact_form h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.wsus__contact_form p {
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.wsus__contact_form input,
+.wsus__contact_form textarea {
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    margin-top: 20px;
+}
+
+.wsus__contact_form button {
+    margin-top: 25px;
+}
+
+.wsus__contact_map {
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 570px;
+}
+
+.wsus__contact_map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*============================
-    PRODUCT PAGE END
+    CONTACT US END
 ============================*/
