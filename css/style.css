@@ -1544,10 +1544,20 @@ header .wsus__header_right li .nice-select .list {
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
     z-index: 9;
     padding: 3px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__single_courses_img .main_category {
     bottom: 50px;
+}
+
+.wsus__single_courses_img .main_category:hover,
+.wsus__single_courses_img .sub_category:hover {
+    background: var(--colorOrange);
 }
 
 .wsus__single_courses_img ul {
@@ -2604,6 +2614,7 @@ header .wsus__header_right li .nice-select .list {
     position: absolute;
     top: 0;
     right: -1px;
+    height: 100%;
 }
 
 
@@ -9280,8 +9291,6 @@ footer {
 /*============================
     CONTACT US START
 ============================*/
-.wsus__contact_us {}
-
 .wsus__contact_info {
     background: var(--colorWhite);
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
@@ -9327,9 +9336,6 @@ footer {
     color: var(--colorPrimary);
 }
 
-
-
-
 .wsus__contact_form_area {
     background: var(--colorWhite);
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
@@ -9339,9 +9345,6 @@ footer {
 .wsus__contact_form_img {
     margin-right: 30px;
 }
-
-
-.wsus__contact_form {}
 
 .wsus__contact_form h4 {
     font-size: 24px;
@@ -9374,18 +9377,929 @@ footer {
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*============================
     CONTACT US END
 ============================*/
+
+
+/*============================
+    SIGN IN START
+============================*/
+.wsus__sign_in {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.wsus__sign_img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.wsus__sign_img a {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    overflow-x: 1;
+}
+
+.wsus__sign_form_area {
+    margin-right: 25px;
+}
+
+.wsus__sign_form_area .nav {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.wsus__sign_form_area .nav li button {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    background: #D9E2E9;
+    padding: 9px 32px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    border-right: 1px solid #D9E2E9;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__sign_form_area .nav li button:hover,
+.wsus__sign_form_area .nav li button.active {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.wsus__sign_form_area h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.wsus__sign_form_area h2 span {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--colorPrimary);
+}
+
+.wsus__sign_form_area .new_user {
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wsus__sign_form_area .new_user a {
+    color: var(--colorPrimary);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.wsus__sign_form_area .new_user a:hover {
+    color: var(--colorBlack);
+    text-decoration: none;
+}
+
+.wsus__sign_form_area form {
+    background: var(--colorWhite);
+    box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    padding: 60px 50px;
+}
+
+.wsus__login_form_input {
+    margin-top: 20px;
+}
+
+.wsus__login_form_input label {
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.wsus__login_form_input label a {
+    color: var(--colorPrimary);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    transition: all linear .3s;
+}
+
+.wsus__login_form_input label a:hover {
+    color: var(--colorBlack);
+}
+
+.wsus__login_form_input input {
+    border: 1px solid rgba(30, 30, 47, 0.14);
+}
+
+.wsus__login_form_input .form-check input {
+    padding: 0;
+    border-radius: 0;
+    margin-top: 2px;
+    border: 1px solid rgba(30, 30, 47, 0.14);
+}
+
+.wsus__login_form_input .form-check label {
+    color: #62626E;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.wsus__login_form_input .form-check label a {
+    font-weight: 400;
+}
+
+.wsus__login_form_input .form-check label a:hover {
+    text-decoration: none;
+}
+
+.wsus__login_form_input button {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.wsus__sign_form_area .or {
+    color: var(--paraColor);
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.wsus__sign_form_area .or::after,
+.wsus__sign_form_area .or::before {
+    position: absolute;
+    content: "";
+    width: 46%;
+    height: 1px;
+    background: rgba(30, 30, 47, 0.10);
+    top: 9px;
+    left: 0;
+}
+
+.wsus__sign_form_area .or::before {
+    left: auto;
+    right: 0;
+}
+
+.wsus__sign_form_area .social_login {
+    gap: 10px;
+}
+
+.wsus__sign_form_area .social_login li {
+    width: 32.2%;
+}
+
+.wsus__sign_form_area .social_login li a {
+    background: var(--colorWhite);
+    box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 20px;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.wsus__sign_form_area .social_login li a span {
+    display: inline-block;
+    width: 20px;
+    top: -2px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.wsus__sign_form_area .create_account {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.wsus__sign_form_area .create_account a {
+    color: var(--colorPrimary);
+    font-size: 15px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__sign_form_area .create_account a:hover {
+    color: var(--colorBlack);
+    text-decoration: underline;
+}
+
+.wsus__sign_in .back_btn {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__sign_in .back_btn:hover {
+    color: var(--colorPrimary);
+    text-decoration: none;
+}
+
+/*============================
+    SIGN IN END
+============================*/
+
+
+/*============================
+    ERROR PAGE START
+============================*/
+.wsus__error_page {
+    text-align: center;
+}
+
+.wsus__error_page .img {
+    height: 520px;
+    overflow: hidden;
+}
+
+.wsus__error_page h2 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 23px;
+}
+
+.wsus__error_page a i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/*============================
+    ERROR PAGE END
+============================*/
+
+
+/*============================
+    FORUM PAGE START
+============================*/
+.forum_header {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 130px 130px;
+}
+
+.forum_header_text h4 {
+    color: var(--colorPrimary);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.forum_header_text h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.forum_header_text p {
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: .7;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.forum_header_text form {
+    background: var(--colorWhite);
+    box-shadow: 0px 6px 30px 0px rgba(3, 18, 33, 0.14);
+    position: relative;
+}
+
+.forum_header_text form i {
+    position: absolute;
+    font-size: 16px;
+    color: var(--colorBlack);
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.forum_header_text form input {
+    padding: 18px 50px;
+}
+
+.forum_header_text form button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.wsus__counter_2 .wsus__single_counter {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    gap: 15px;
+}
+
+.wsus__counter_2 .wsus__single_counter .icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.wsus__forum_categories .container {
+    position: relative;
+}
+
+.wsus__forum_categories .container::after {
+    position: absolute;
+    content: "";
+    background: url(../images/category_4_shapes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    top: 45px;
+    left: -25px;
+}
+
+.wsus__forum_categories_item {
+    border: 1px solid rgba(30, 30, 47, 0.10);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.wsus__forum_categories_item .icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.wsus__forum_categories_item .text {
+    width: 75%;
+}
+
+.wsus__forum_categories_item .text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wsus__forum_categories_item .text p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.wsus__forum_topic {
+    background: var(--colorLightBg);
+}
+
+.wsus__forum_topic_item {
+    background: var(--colorWhite);
+    box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.wsus__forum_topic_item .icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.wsus__forum_topic_item .text {
+    width: 92%;
+}
+
+.wsus__forum_topic_item .text p {
+    border-bottom: 1px solid rgba(30, 30, 47, 0.10);
+    margin-top: 5px;
+    padding-bottom: 23px;
+    margin-bottom: 20px;
+}
+
+.wsus__forum_topic_footer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forum_topic_left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 35px;
+}
+
+.forum_topic_left .img {
+    width: 85px;
+    position: relative;
+}
+
+.forum_topic_left .img span {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 2px solid rgba(30, 30, 47, 0.14);
+    background: var(--colorWhite);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.forum_topic_left ul li {
+    color: var(--paraColor);
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px solid rgba(30, 30, 47, 0.14);
+}
+
+.forum_topic_left ul li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+    border: none;
+}
+
+.forum_topic_left ul li img {
+    width: 17px !important;
+    height: auto !important;
+    margin-right: 5px;
+    margin-top: -4px;
+}
+
+.forum_topic_left ul li a {
+    color: var(--colorPrimary);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.forum_topic_right {
+    gap: 16px;
+}
+
+.forum_topic_right li {
+    color: var(--paraColor);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.forum_topic_right li i {
+    color: var(--colorBlack);
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.wsus__different_category {
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    padding: 25px 35px 40px 25px;
+}
+
+.wsus__different_category .small_heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wsus__different_forum_item {
+    background: var(--colorLightBg);
+    margin-top: 15px;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wsus__different_forum_left {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wsus__different_forum_left .img {
+    width: 50px;
+    height: 50px;
+}
+
+.wsus__different_forum_left .text a {
+    font-size: 18px;
+}
+
+.wsus__different_forum_center ul {
+    gap: 50px;
+    min-width: 140px;
+}
+
+.wsus__different_forum_center ul li {
+    text-align: center;
+}
+
+.wsus__different_forum_center ul li h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.wsus__different_forum_right {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    min-width: 350px;
+}
+
+.wsus__different_forum_right .img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.wsus__different_forum_right .text p {
+    font-size: 14px;
+    color: #030611;
+    opacity: .7;
+}
+
+.wsus__different_forum_right .text ul li {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4F5159;
+}
+
+.wsus__different_forum_right .text ul li a {
+    color: var(--colorPrimary);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all linear .3s;
+    margin-right: 5px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__different_forum_right .text ul li a:hover {
+    text-decoration: underline;
+}
+
+.wsus__different_forum_right .text ul li:last-child {
+    border-left: 1px solid rgba(30, 30, 47, 0.14);
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.wsus__forum_call_to_action {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.wsus__forum_call_to_action_img {
+    width: 380px;
+    height: 525px;
+    margin-top: -110px;
+}
+
+.wsus__forum_call_to_action_text h3 {
+    color: var(--colorWhite);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+.wsus__forum_call_to_action_text ul {
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.wsus__forum_call_to_action_text ul li a {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 11px 31px 10px 31px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__forum_call_to_action_text ul li a span {
+    display: inline-block;
+    width: 20px;
+    position: relative;
+    top: -1px;
+}
+
+.wsus__forum_call_to_action_text ul li a.create {
+    background: var(--colorWhite);
+}
+
+.wsus__forum_call_to_action_text ul li a.browse {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.wsus__forum_call_to_action_text ul li a:hover {
+    background: var(--colorOrange);
+    color: var(--colorBlack);
+}
+
+/*============================
+    FORUM PAGE END
+============================*/
+
+
+/*===============================
+    FORUM CREATE TOPIC START
+===============================*/
+.wsus__forum_create_topic {}
+
+.forum_create_topic_content {}
+
+.forum_create_topic_form {}
+
+.forum_create_topic_input {
+    margin-bottom: 23px;
+}
+
+.forum_create_topic_input label {
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: 100%;
+    display: block;
+}
+
+.forum_create_topic_input input,
+.forum_create_topic_input textarea {
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.forum_create_topic_input {}
+
+.forum_create_topic_input .file {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 380px;
+    position: relative;
+}
+
+.forum_create_topic_input .file label {
+    width: 80px;
+    height: 47px;
+    background: var(--colorOrange);
+    margin: 0;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.forum_create_topic_input .file label img {
+    width: 20px !important;
+    height: 20px !important;
+    display: inline-block;
+}
+
+.forum_create_topic_input .file p {
+    max-width: 300px;
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    padding: 0px 20px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.forum_create_topic_input .file button {
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    width: 47px;
+    height: 47px;
+    line-height: 38px;
+    text-align: center;
+    background: var(--colorOrange);
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.forum_create_topic_input .file button:hover {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.forum_create_topic_input .nice-select {
+    border-radius: 0;
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    font-size: 14px;
+    height: 47px;
+    line-height: 47px;
+    margin-bottom: 23px;
+}
+
+.forum_create_topic_input .nice-select:after {
+    right: 20px;
+}
+
+.forum_create_topic_input .current {
+    color: var(--colorBlack);
+}
+
+
+
+
+.forum_terms_and_rules {
+    background: var(--colorLightBg);
+    padding: 50px;
+    position: relative;
+    margin-top: 7px;
+}
+
+.forum_terms_and_rules h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.forum_terms_and_rules p {
+    font-size: 14px;
+}
+
+.forum_terms_and_rules a {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+/*===============================
+    FORUM CREATE TOPIC END
+===============================*/
+
+
+/*===============================
+    FORUM SINGLE TOPIC START
+===============================*/
+.wsus__forum_single_topic_area {
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    padding: 20px;
+}
+
+.single_topic_sidebar {
+    background: var(--colorLightBg);
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.single_topic_sidebar_banner {
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.single_topic_sidebar .author_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid var(--colorWhite);
+    filter: drop-shadow(0px 20px 30px rgba(23, 23, 24, 0.12));
+    position: relative;
+    z-index: 2;
+}
+
+.single_topic_sidebar h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.single_topic_sidebar h6 {
+    color: var(--paraColor);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.single_topic_sidebar .badge {
+    background: rgba(23, 23, 24, 0.10);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 0;
+    margin-top: 25px;
+}
+
+.single_topic_sidebar .badge li {
+    width: 50px;
+    height: 50px;
+    background: var(--colorWhite);
+    padding: 11px;
+}
+
+.single_topic_sidebar .list {
+    padding: 35px;
+}
+
+.single_topic_sidebar .list li {
+    color: var(--paraColor);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+/*===============================
+    FORUM SINGLE TOPIC END
+===============================*/
