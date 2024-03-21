@@ -9912,7 +9912,7 @@ footer {
 
 .wsus__different_forum_item {
     background: var(--colorLightBg);
-    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 20px 30px;
     display: flex;
     flex-wrap: wrap;
@@ -9929,6 +9929,8 @@ footer {
 .wsus__different_forum_left .img {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .wsus__different_forum_left .text a {
@@ -10211,6 +10213,7 @@ footer {
 .wsus__forum_single_topic_area {
     border: 1px solid rgba(30, 30, 47, 0.14);
     padding: 20px;
+    overflow: hidden;
 }
 
 .single_topic_sidebar {
@@ -10220,6 +10223,7 @@ footer {
     padding-bottom: 100px;
     margin-right: 50px;
     position: relative;
+    height: 100%;
 }
 
 .single_topic_sidebar_banner {
@@ -10292,9 +10296,122 @@ footer {
     justify-content: space-between;
 }
 
+.single_topic_text .top {
+    position: relative;
+    padding-bottom: 20px;
+    /* margin-bottom: 35px; */
+    border-bottom: 1px solid rgba(30, 30, 47, 0.14);
+}
 
+.single_topic_text .top p,
+.single_topic_text .top a,
+.single_topic_text p b {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--paraColor);
+}
 
+.single_topic_text .top p span,
+.single_topic_text .top a span {
+    display: inline-block;
+    width: 16px;
+    margin-right: 5px;
+}
 
+.single_topic_text p b {
+    border-left: 1px solid #D9D9D9;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.single_topic_text .top ul {
+    gap: 12px;
+}
+
+.single_topic_text .top ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.single_topic_text .top ul li:last-child a {
+    border-radius: 100px;
+    background: rgba(30, 30, 47, 0.06);
+    padding: 6px 21px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_topic_text .top ul li:last-child a:hover {
+    background: var(--colorOrange);
+    color: var(--colorBlack);
+}
+
+.single_topic_text .center h4 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.single_topic_text .center ul,
+.single_topic_text .center ol {
+    padding-left: 15px;
+}
+
+.single_topic_text .center ul li,
+.single_topic_text .center ol li {
+    list-style: decimal;
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.single_topic_text .center ul li::marker,
+.single_topic_text .center ol li::marker {}
+
+.single_topic_text .center ul li span,
+.single_topic_text .center ol li span {
+    line-height: 26px;
+}
+
+.single_topic_text .topic_header {
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    border-top: 0;
+    padding: 20px;
+}
+
+.single_topic_text .topic_header h5 {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    padding-left: 65px;
+    position: relative;
+}
+
+.single_topic_text .topic_header h5 span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.single_topic_text .topic_header h5::after {
+    position: absolute;
+    content: "";
+    background: url(../images/topic_quot_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    top: -4px;
+    left: 0;
+}
+
+.single_topic_text .topic_header p {}
 
 
 
@@ -10302,4 +10419,389 @@ footer {
 
 /*===============================
     FORUM SINGLE TOPIC END
+===============================*/
+
+
+/*===============================
+    FORUM CATEGORY LIST START
+===============================*/
+.wsus__forum_category_list {}
+
+.forum_category_header {
+    background: var(--colorWhite);
+    box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+    padding: 20px 20px 20px 25px;
+}
+
+.forum_category_header_left {}
+
+.forum_category_header_left h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.forum_category_header_left ul {
+    gap: 8px;
+}
+
+.forum_category_header_left ul li {}
+
+.forum_category_header_left ul li a {
+    color: var(--paraColor);
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(30, 30, 47, 0.14);
+    padding: 1px 8px;
+    transition: all linear .3s;
+}
+
+.forum_category_header_left ul li a:hover {
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.forum_category_header_right {
+    justify-content: flex-end;
+}
+
+.forum_category_header_right .rearch {
+    position: relative;
+    margin-right: 35px;
+}
+
+.forum_category_header_right .rearch input {
+    border: 1px solid rgba(3, 6, 17, 0.10);
+    width: 350px;
+    margin-right: 5px;
+}
+
+.forum_category_header_right .rearch button {
+    width: 50px;
+    height: 50px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.forum_category_header_right .rearch button:hover {
+    background: var(--colorBlack);
+}
+
+.forum_category_header_right .common_btn_2 {
+    background: var(--colorOrange);
+    border-color: var(--colorOrange);
+    padding: 13px 35px;
+}
+
+.forum_category_header_right .common_btn_2:hover {
+    border-color: var(--colorPrimary);
+}
+
+.forum_category_header_right .common_btn_2:hover span {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(20%) hue-rotate(83deg) brightness(104%) contrast(100%);
+}
+
+.forum_category_header_right .common_btn_2 span {
+    display: inline-block;
+    position: relative;
+}
+
+
+
+
+
+
+
+.wsus__forum_category_list .wsus__different_forum_center ul {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.wsus__forum_category_list .wsus__different_forum_left .text ul {
+    margin-top: 5px;
+}
+
+.wsus__forum_category_list .wsus__different_forum_left .text ul li {
+    color: var(--paraColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wsus__forum_category_list .wsus__different_forum_left .text ul li:last-child {
+    border-left: 1px solid rgba(30, 30, 47, 0.14);
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.wsus__forum_category_list .wsus__different_forum_right .text p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wsus__forum_category_list .wsus__different_forum_left .img {
+    width: 60px;
+    height: 60px;
+}
+
+.wsus__forum_category_list .wsus__different_forum_right {
+    min-width: 250px;
+}
+
+.wsus__forum_user {
+    background: var(--colorWhite);
+    box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+    padding: 35px 25px;
+    margin-top: 30px;
+}
+
+.wsus__forum_user h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wsus__forum_user ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.wsus__forum_user ul li .img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.wsus__forum_user ul li .text {
+    width: 74%;
+}
+
+.wsus__forum_user ul li .text a {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.wsus__forum_user ul li .text p,
+.wsus__forum_user ul li .text p span {
+    font-size: 14px;
+}
+
+.wsus__forum_user ul li .text p span {
+    border-left: 1px solid rgba(30, 30, 47, 0.14);
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+/*===============================
+    FORUM CATEGORY LIST END
+===============================*/
+
+
+/*===============================
+    PRICING PLAN START
+===============================*/
+.wsus__pricing {}
+
+.wsus__pricing .wsus__section_heading {}
+
+.wsus__pricing .wsus__section_heading h2 {}
+
+.wsus__pricing .wsus__section_heading p {
+    margin-top: 15px;
+}
+
+.wsus__pricing .nav {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    width: 65px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background: rgba(30, 29, 48, 0.10);
+}
+
+.wsus__pricing .nav li button {
+    background: none !important;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+
+.wsus__pricing .nav li button span {
+    color: var(--paraColor) !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0;
+    background: none !important;
+    position: absolute;
+    top: 5px;
+    left: -115px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__pricing .nav li:last-child button span {
+    left: auto;
+    right: -100px;
+}
+
+.wsus__pricing .nav li button.active {
+    background: var(--colorPrimary) !important;
+}
+
+.wsus__pricing_area {
+    background: var(--colorLightBg);
+    margin-top: 45px;
+    padding: 40px 0px;
+}
+
+.wsus__single_pricing {
+    padding: 50px 35px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__single_pricing h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wsus__single_pricing h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.wsus__single_pricing h2 span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wsus__single_pricing p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.wsus__single_pricing a {
+    width: 100%;
+    text-align: center;
+    border: none !important;
+    box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.wsus__single_pricing ul {
+    min-height: 230px;
+}
+
+.wsus__single_pricing ul li {
+    position: relative;
+    color: var(--paraColor);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.wsus__pricing_tabs_area {
+    position: relative;
+}
+
+.wsus__pricing_tabs_area p {
+    color: #C83140;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 160px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: -180px;
+}
+
+.wsus__pricing_tabs_area p::after {
+    position: absolute;
+    content: "";
+    background: url(../images/pricing_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65px;
+    height: 18px;
+    top: -5px;
+    left: -75px;
+}
+
+.wsus__single_pricing ul li::after {
+    position: absolute;
+    content: "";
+    background: url(../images/check_icon_green_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 0;
+}
+
+.wsus__single_pricing.active,
+.wsus__single_pricing:hover {
+    background: var(--colorWhite);
+    box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+}
+
+.wsus__single_pricing.active a,
+.wsus__single_pricing:hover a {
+    box-shadow: none;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border: 1px solid var(--colorPrimary);
+    width: 100%;
+}
+
+.wsus__single_pricing a:hover {
+    box-shadow: none;
+}
+
+/*===============================
+    PRICING PLAN END
 ===============================*/
