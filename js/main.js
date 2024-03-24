@@ -615,7 +615,10 @@ $(function () {
     });
 
 
-
+    // Forum Topic Popup
+    $(".popup .delete_popup").on("click", function () {
+        $(".wsus__forum_single_topic_input .popup").addClass("hide_popup");
+    });
 
 
 
