@@ -2279,7 +2279,7 @@ header .wsus__header_right li .nice-select .list {
 
 .accordion-item {
     margin-top: 12px;
-    border: 1px solid var(--borderColor) !important;
+    border: 1px solid rgba(30, 30, 47, 0.10) !important;
     border-radius: 0 !important;
 }
 
@@ -8317,8 +8317,6 @@ footer {
     right: 20px;
 }
 
-.wsus__instructor_finder_sidebar {}
-
 .wsus__instructor_finder_sidebar h3 {
     font-size: 20px;
     font-weight: 600;
@@ -8811,8 +8809,6 @@ footer {
 /*============================
     BLOG DETAILS START
 ============================*/
-.wsus__blog_details {}
-
 .wsus__blog_details_thumb {
     height: 415px;
 }
@@ -8856,9 +8852,6 @@ footer {
     line-height: 50px;
     margin-top: 20px;
 }
-
-
-.wsus__blog_details_text {}
 
 .wsus__blog_details_text p {
     font-size: 16px;
@@ -8918,8 +8911,6 @@ footer {
 .wsus__blog_det_tags_share ul {
     gap: 8px;
 }
-
-.wsus__blog_det_tags_share ul li {}
 
 .wsus__blog_det_tags_share ul li span {
     color: var(--colorBlack);
@@ -9003,7 +8994,6 @@ footer {
 .wsus__blog_det_author .text p {
     font-size: 14px;
     line-height: 25px;
-    /* 178.571% */
 }
 
 .wsus__blog_det_author .text ul {
@@ -9013,8 +9003,6 @@ footer {
     gap: 8px 20px;
     margin-top: 30px;
 }
-
-.wsus__blog_det_author .text ul li {}
 
 .wsus__blog_det_author .text ul li a {
     font-size: 16px;
@@ -9031,16 +9019,10 @@ footer {
     color: var(--colorPrimary);
 }
 
-.wsus__blog_comment_area {}
-
 .wsus__blog_comment_area h2 {
     font-size: 24px;
     font-weight: 600;
-    /* 108.333% */
 }
-
-
-
 
 .wsus__blog_single_comment {
     display: flex;
@@ -9197,10 +9179,6 @@ footer {
     margin-bottom: 5px;
 }
 
-.wsus__sidebar_blog_category ul {}
-
-.wsus__sidebar_blog_category ul li {}
-
 .wsus__sidebar_blog_category ul li a {
     border-bottom: 1px solid rgba(30, 30, 47, 0.10);
     color: var(--paraColor);
@@ -9338,8 +9316,6 @@ footer {
 /*============================
     PRODUCT DETAILS SDTART
 ============================*/
-.wsus__product_details {}
-
 .product_slider_small {
     margin-left: 0;
 }
@@ -9354,25 +9330,11 @@ footer {
     border: 1px solid var(--colorWhite);
 }
 
-
-.wsus__product_details_img {}
-
-.product_slider_large {}
-
 .product_slider_large_item {
     height: 630px;
     margin-left: 17px;
     margin-top: 5px;
     margin-right: 65px;
-}
-
-
-
-
-
-
-.wsus__product_details_text {
-    /* padding-left: 20px; */
 }
 
 .wsus__product_details_text .rating {
@@ -10393,12 +10355,6 @@ footer {
 /*===============================
     FORUM CREATE TOPIC START
 ===============================*/
-.wsus__forum_create_topic {}
-
-.forum_create_topic_content {}
-
-.forum_create_topic_form {}
-
 .forum_create_topic_input {
     margin-bottom: 23px;
 }
@@ -10418,8 +10374,6 @@ footer {
     font-size: 14px;
     font-weight: 400;
 }
-
-.forum_create_topic_input {}
 
 .forum_create_topic_input .file {
     display: inline-flex;
@@ -10692,9 +10646,6 @@ footer {
     margin-top: 30px;
 }
 
-.single_topic_text .center ul li::marker,
-.single_topic_text .center ol li::marker {}
-
 .single_topic_text .center ul li span,
 .single_topic_text .center ol li span {
     line-height: 26px;
@@ -10734,12 +10685,6 @@ footer {
     left: 0;
 }
 
-.single_topic_text .topic_header p {}
-
-
-
-
-
 /*===============================
     FORUM SINGLE TOPIC END
 ===============================*/
@@ -10748,15 +10693,11 @@ footer {
 /*===============================
     FORUM CATEGORY LIST START
 ===============================*/
-.wsus__forum_category_list {}
-
 .forum_category_header {
     background: var(--colorWhite);
     box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
     padding: 20px 20px 20px 25px;
 }
-
-.forum_category_header_left {}
 
 .forum_category_header_left h3 {
     font-size: 18px;
@@ -10767,8 +10708,6 @@ footer {
 .forum_category_header_left ul {
     gap: 8px;
 }
-
-.forum_category_header_left ul li {}
 
 .forum_category_header_left ul li a {
     color: var(--paraColor);
@@ -10943,12 +10882,6 @@ footer {
 /*===============================
     PRICING PLAN START
 ===============================*/
-.wsus__pricing {}
-
-.wsus__pricing .wsus__section_heading {}
-
-.wsus__pricing .wsus__section_heading h2 {}
-
 .wsus__pricing .wsus__section_heading p {
     margin-top: 15px;
 }
@@ -11125,8 +11058,6 @@ footer {
     box-shadow: none;
 }
 
-.wsus__forum_single_topic_replay {}
-
 .wsus__forum_single_topic_replay h6 {
     color: var(--colorBlack);
     font-size: 18px;
@@ -11251,9 +11182,6 @@ footer {
     min-width: 100px;
     text-align: center;
 }
-
-.cart_list table tr th,
-.cart_list table tr td {}
 
 .cart_list table tr th {
     font-size: 18px;
@@ -11387,21 +11315,13 @@ footer {
     margin-left: 14px;
 }
 
-.subtotal_area {
-    /* margin-top: 60px; */
-    /* margin-left: 60px; */
-}
-
 .subtotal_area h5 {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    /* padding-top: 30px; */
-    /* border-top: 1px solid var(--borderColor); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* text-align: left; */
 }
 
 .subtotal_area h5 span {
@@ -11473,14 +11393,13 @@ footer {
 
 .billing_input input {
     padding: 17px 20px;
-    /* border-radius: 0; */
-    /* border: 1px solid var(--borderColor); */
-    /* transition: all linear .3s; */
-    /* -webkit-transition: all linear .3s; */
+    border-radius: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-    /* -webkit-border-radius: 0; */
+    -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
@@ -11528,15 +11447,6 @@ footer {
     height: 9px;
     margin-top: 9px;
     right: 23px;
-}
-
-.billing_input textarea {
-    /* border-radius: 0; */
-    /* padding: 13px 20px; */
-    /* -webkit-border-radius: 0; */
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
 }
 
 .order_summary {
@@ -11830,8 +11740,6 @@ footer {
 /*================================
     BLOG LIST VIEW START
 ================================*/
-.wsus__blog_list_view {}
-
 .wsus__blog_list_item {
     background: var(--colorWhite);
     box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
@@ -11909,22 +11817,228 @@ footer {
 /*================================
     COURSE VIDEO START
 ================================*/
-.wsus__course_video {}
+.wsus__course_video {
+    height: 100vh;
+    background: var(--colorLightBg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+    overflow: hidden;
+}
 
-.wsus__course_header {}
+.wsus__course_header {
+    background: var(--colorBlack);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 18px 30px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
 
-.wsus__course_header a {}
+.wsus__course_header a,
+.wsus__course_header p {
+    color: var(--colorWhite);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
 
-.wsus__course_header a i {}
+.wsus__course_header a i {
+    margin-right: 5px;
+}
 
-.wsus__course_header span {}
+.wsus__course_header a:hover {
+    color: var(--colorPrimary);
+}
 
-.wsus__course_header {}
+.wsus__course_video_player {
+    width: 75%;
+}
 
-.wsus__course_video {}
+.wsus__course_sidebar {
+    width: 25%;
+    background: var(--colorLightBg);
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+    padding-top: 60px;
+}
 
-.wsus__course_sidebar {}
+.wsus__course_sidebar .video_heading {
+    border-bottom: 1px solid rgb(30 30 47 / 15%) !important;
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 20px;
+    width: 100%;
+    position: fixed;
+    top: 60px;
+    z-index: 9999;
+    background: var(--colorLightBg);
+}
 
+.wsus__course_sidebar .accordion-item {
+    margin-top: 0;
+    border: none !important;
+    border-bottom: 1px solid rgb(30 30 47 / 15%) !important;
+}
+
+.wsus__course_sidebar .accordion-item button {
+    background: var(--colorLightBg) !important;
+}
+
+.wsus__course_sidebar .accordion-item button p {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 400;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__course_sidebar .accordion-item button span {
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+
+.wsus__course_sidebar .accordion-button::after {
+    background: transparent;
+    border: none;
+    background-image: var(--bs-accordion-btn-icon);
+    width: 17px;
+    height: 17px;
+}
+
+.wsus__course_sidebar .accordion-body {
+    border-top: 1px solid rgb(30 30 47 / 15%) !important;
+    padding: 25px 20px 7px 20px;
+}
+
+.wsus__course_sidebar .form-check {
+    margin-bottom: 15px;
+}
+
+.wsus__course_sidebar .form-check input {
+    border: 1px solid rgba(30, 30, 47, 0.70);
+    padding: 0;
+    border-radius: 0;
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+}
+
+.wsus__course_sidebar .form-check label {
+    color: var(--paraColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wsus__course_sidebar .form-check label span {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.wsus__course_sidebar .form-check label span img {
+    width: 16px !important;
+    height: auto !important;
+}
+
+.wsus__course_sidebar .dropdown {
+    margin-top: -35px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.wsus__course_sidebar .dropdown button {
+    color: var(--colorBlack);
+    font-size: 12px;
+    font-weight: 400;
+    background: var(--colorWhite) !important;
+    border: 1px solid rgba(30, 30, 47, 0.20);
+    padding: 5px 20px;
+}
+
+.wsus__course_sidebar .dropdown button i {
+    color: var(--colorBlack);
+    margin-right: 3px;
+}
+
+.wsus__course_sidebar .dropdown-menu {
+    border-radius: 0 !important;
+    border: 1px solid rgba(30, 30, 47, 0.20);
+}
+
+.wsus__course_sidebar .dropdown-menu.show {
+    display: block;
+    width: auto;
+    min-width: 130px;
+    max-width: 350px;
+    transform: translate(0) !important;
+    top: 32px !important;
+    right: 0 !important;
+    left: auto !important;
+}
+
+.wsus__course_sidebar .dropdown-menu li a {
+    font-size: 13px;
+    position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-left: 35px;
+}
+
+.wsus__course_sidebar .dropdown-menu li a::after {
+    position: absolute;
+    content: "\f019";
+    font-family: "font awesome 5 free";
+    font-weight: 600;
+    font-size: 11px;
+    top: 4px;
+    left: 12px;
+    color: var(--colorBlack);
+}
+
+.wsus__course_sidebar .accordion-button:not(.collapsed) p {
+    font-weight: 500;
+}
+
+.wsus__course_sidebar .accordion {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.wsus__course_sidebar .accordion::-webkit-scrollbar {
+    background: var(--colorWhite);
+    width: 6px;
+    height: 30px;
+}
+
+.wsus__course_sidebar .accordion::-webkit-scrollbar-thumb {
+    background: var(--paraColor);
+}
 
 /*================================
     COURSE VIDEO END
