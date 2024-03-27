@@ -38,7 +38,6 @@ h6 {
 
 p,
 span {
-    display: inline-block;
     font-size: 15px;
     font-weight: 400;
     margin: 0;
@@ -3371,7 +3370,66 @@ footer {
 
 .wsus__single_courses_2 .wsus__single_courses_img {
     height: 200px;
+    position: relative;
 }
+
+
+
+
+
+
+
+.wsus__course_product_page .wsus__single_courses_img::after {
+    display: none;
+}
+
+.wsus__course_product_page .wsus__single_courses_img::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #356df1ab;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__course_product_page .wsus__single_courses_img ul {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.wsus__course_product_page .wsus__single_courses_img ul a {
+    border-radius: 50%;
+    background: var(--colorLightBg) !important;
+    box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+    margin: 0;
+}
+
+.wsus__course_product_page .wsus__single_courses_2:hover .wsus__single_courses_img::before {
+    opacity: 1;
+}
+
+.wsus__course_product_page .wsus__single_courses_2 .wsus__single_courses_img ul li a img {
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+
+
+
 
 .wsus__single_courses_2 .rating {
     padding: 0;
@@ -4007,7 +4065,7 @@ footer {
 }
 
 .wsus__single_testimonial_2 .testi_text {
-    background: var(--colorLightBg);
+    background: #F0F5F9;
     padding: 35px;
     position: relative;
 }
@@ -6106,14 +6164,15 @@ footer {
 .wsus__banner_4 {
     margin: 0;
     padding: 0;
-    height: 730px;
+    height: auto;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    overflow: hidden;
 }
 
 .wsus__banner_4_text {
-    padding-top: 60px;
+    padding-top: 87px;
 }
 
 .wsus__banner_4_text h1,
@@ -6178,7 +6237,7 @@ footer {
 
 .wsus__banner_image_4 .img {
     height: 600px;
-    margin-top: 132px;
+    margin-top: 180px;
     position: relative;
     right: -140px;
 }
@@ -6299,6 +6358,15 @@ footer {
 .home_4 .wsus__single_courses {
     border: none;
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+}
+
+.home_4 .wsus__single_courses_text .wishlist {
+    display: block;
+}
+
+.wsus__top_courses .wsus__single_courses_img ul li a img {
+    transform: translate(0) !important;
+    margin-top: 12px;
 }
 
 .top_courses_slider .wsus__single_courses {
@@ -6696,6 +6764,20 @@ footer {
 .wsus__testimonial_4_text {
     padding-right: 130px;
     padding-top: 15px;
+    position: relative;
+}
+
+.wsus__testimonial_4_text::after {
+    position: absolute;
+    content: "";
+    background: url(../images/testimonial_4_shapes_5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 40px;
+    bottom: -20px;
+    right: 120px;
 }
 
 .wsus__testimonial_4_text .rating {
@@ -8921,6 +9003,17 @@ footer {
     margin: 0;
     margin-top: 18px;
     padding-left: 40px;
+    position: relative;
+}
+
+.details_quot_text h4::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background: var(--colorOrange);
+    top: 8px;
+    left: 0;
 }
 
 .wsus__blog_det_tags_share {
@@ -9208,7 +9301,25 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 13px 0px;
+    padding: 13px 0px 13px 21px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    position: relative;
+}
+
+.wsus__sidebar_blog_category ul li a::after {
+    position: absolute;
+    content: "\f054";
+    font-family: "font awesome 5 free";
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--paraColor);
+    top: 14px;
+    left: 0;
+    z-index: 1;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -9230,7 +9341,8 @@ footer {
     color: var(--colorPrimary);
 }
 
-.wsus__sidebar_blog_category ul li a:hover span {
+.wsus__sidebar_blog_category ul li a:hover span,
+.wsus__sidebar_blog_category ul li a:hover::after {
     color: var(--colorPrimary);
 }
 
@@ -12077,17 +12189,26 @@ footer {
 .wsus__dashboard_sidebar_top {
     height: 280px;
     padding: 60px 20px 20px 20px;
-    background: url(../images/dashboard_profile_bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: var(--colorWhite);
     box-shadow: 0px 3px 3px 0px rgba(23, 23, 24, 0.10);
+    position: relative;
+}
+
+.wsus__dashboard_sidebar_top .dashboard_banner {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .wsus__dashboard_sidebar_top .img {
     width: 120px;
     height: 120px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .wsus__dashboard_sidebar_top .img img {
@@ -12108,9 +12229,10 @@ footer {
 }
 
 .wsus__dashboard_sidebar_top p {
-    text-align: center;
+    display: block;
     margin-top: 5px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .wsus__dashboard_sidebar_menu {
@@ -12123,7 +12245,7 @@ footer {
     flex-wrap: wrap;
     font-size: 15px;
     font-weight: 500;
-    padding: 11px 20px;
+    padding: 13px 20px;
     color: var(--paraColor);
     text-transform: capitalize;
     background: var(--colorWhite);
@@ -12217,7 +12339,7 @@ footer {
 }
 
 .wsus__dashboard_graph {
-    padding: 27px 30px 45px 30px;
+    padding: 20px;
     background: var(--colorWhite);
     box-shadow: 0px 3px 3px 0px rgba(23, 23, 24, 0.10);
 }
@@ -12237,7 +12359,7 @@ footer {
 }
 
 .wsus__dashboard_barfiller {
-    padding: 27px 30px 45px 30px;
+    padding: 25px 25px 25px 25px;
     background: var(--colorWhite);
     box-shadow: 0px 3px 3px 0px rgba(23, 23, 24, 0.10);
 }
@@ -12249,7 +12371,7 @@ footer {
 }
 
 .wsus__dashboard_barfiller .single_bar {
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 .wsus__dashboard_barfiller .single_bar p {
@@ -12383,10 +12505,10 @@ footer {
 
 .wsus__dash_course_table .details a {
     font-size: 17px;
-    font-weight: 600;
-    line-height: 26px;
-    margin-top: 10px;
-    color: var(--colorBlack);
+    /* font-weight: 600; */
+    /* line-height: 26px; */
+    margin-top: 12px;
+    /* color: var(--colorBlack); */
 }
 
 .wsus__dash_course_table .sale p,
@@ -12422,7 +12544,7 @@ footer {
 }
 
 .wsus__dashboard_profile .text {
-    width: 83%;
+    /* width: 83%; */
     margin-left: 20px;
 }
 
@@ -12437,7 +12559,7 @@ footer {
     line-height: 22px;
 }
 
-.wsus__dashboard_profile_info p {
+.wsus__dashboard_profile_info li {
     font-size: 14px;
     font-weight: 500;
     color: var(--colorBlack);
@@ -12446,7 +12568,7 @@ footer {
     border-bottom: 1px solid var(--borderColor);
 }
 
-.wsus__dashboard_profile_info p span {
+.wsus__dashboard_profile_info li span {
     width: 130px;
     display: inline-block;
     font-size: 14px;
@@ -12471,14 +12593,14 @@ footer {
 
 .wsus__dash_course_searchbox .input input {
     width: 270px;
-    padding: 10px 20px 10px 35px;
+    padding: 10px 35px 10px 20px;
     border: 1px solid var(--borderColor);
 }
 
 .wsus__dash_course_searchbox .input button {
     position: absolute;
     top: 12px;
-    left: 15px;
+    right: 15px;
     font-size: 14px;
     background: transparent;
 }
@@ -12651,9 +12773,9 @@ footer {
 
 .wsus__dash_order_table .details a {
     font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    color: var(--colorBlack);
+    /* font-weight: 600; */
+    /* line-height: 24px; */
+    /* color: var(--colorBlack); */
     margin-top: 10px;
 }
 
@@ -12682,8 +12804,8 @@ footer {
 }
 
 .wsus__invoice_logo {
-    width: 130px;
-    height: 30px;
+    width: 150px;
+    /* height: 30px; */
 }
 
 .wsus__invoice_heading {
@@ -12943,6 +13065,10 @@ footer {
 .wsus__dash_student_table .name {
     min-width: 260px;
     width: 34%;
+}
+
+.wsus__dash_student_table .name input {
+    margin-top: 8px;
 }
 
 .wsus__dash_student_table .date,
@@ -13321,8 +13447,13 @@ footer {
     background: var(--colorPrimary);
 }
 
+.wsus__dashboard_profile_avatar .img label:hover img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(5%) saturate(1700%) hue-rotate(284deg) brightness(115%) contrast(100%);
+    -webkit-filter: brightness(0) saturate(100%) invert(99%) sepia(5%) saturate(1700%) hue-rotate(284deg) brightness(115%) contrast(100%);
+}
+
 .wsus__dashboard_profile_update {
-    padding: 30px 30px 50px 30px;
+    padding: 30px;
 }
 
 .wsus__dashboard_profile_update_info {
@@ -13336,7 +13467,8 @@ footer {
     text-transform: capitalize;
 }
 
-.wsus__dashboard_profile_update_info input {
+.wsus__dashboard_profile_update_info input,
+.wsus__dashboard_profile_update_info textarea {
     margin-top: 5px;
     border: 1px solid var(--borderColor);
 }
@@ -13424,7 +13556,7 @@ footer {
 
 /* dashboard social profilw start */
 .wsus__dashboard_social_profile {
-    padding: 0px 50px 50px 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 .wsus__dashboard_social_profile_input {
@@ -13481,7 +13613,7 @@ footer {
 }
 
 .wsus__dashboard_notification_bottom {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 /* dashboard notification end */
@@ -13489,7 +13621,7 @@ footer {
 
 /* dashboard account linked start */
 .wsus__dashboard_account {
-    padding: 30px 30px 260px 30px;
+    padding: 30px;
 }
 
 .wsus__dashboard_account_remove {
@@ -13521,6 +13653,7 @@ footer {
 
 .wsus__dashboard_account_remove .text p {
     margin-top: 12px;
+    width: 100%;
 }
 
 .wsus__dashboard_account_remove .text a {

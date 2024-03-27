@@ -387,7 +387,7 @@ $(function () {
     $('.top_courses_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         dots: false,
         arrows: true,
