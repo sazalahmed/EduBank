@@ -826,7 +826,6 @@ header .wsus__header_right li .nice-select .list {
 
 .main_menu .right_menu form {
     border: 1px solid var(--borderColor);
-    /* padding: 5px 5px 5px 20px; */
     align-items: center;
 }
 
@@ -1474,7 +1473,6 @@ header .wsus__header_right li .nice-select .list {
 
 .wsus__call_to_action_text {
     position: relative;
-    /* padding: 85px 0px 85px 330px; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1743,7 +1741,6 @@ header .wsus__header_right li .nice-select .list {
     display: inline-block;
     font-size: 15px;
     font-weight: 400;
-    /* border-bottom: 1px solid var(--borderColor); */
 }
 
 .wsus__single_courses_text .category a {
@@ -2028,8 +2025,6 @@ header .wsus__header_right li .nice-select .list {
 }
 
 /* become instructor end */
-
-
 
 
 /* instructor start */
@@ -2388,19 +2383,6 @@ header .wsus__header_right li .nice-select .list {
     padding: 0px 25px;
 }
 
-/* .wsus__testimonial::after {
-    position: absolute;
-    content: "";
-    background: url(../images/testimonial_shapes.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100px;
-    height: 60px;
-    bottom: 0;
-    right: 0;
-} */
-
 .wsus__single_testimonial {
     background: var(--colorWhite);
     padding: 50px 40px;
@@ -2669,11 +2651,6 @@ header .wsus__header_right li .nice-select .list {
     right: -1px;
     height: 100%;
 }
-
-
-
-
-
 
 /* subscriprion end */
 
@@ -3373,12 +3350,6 @@ footer {
     position: relative;
 }
 
-
-
-
-
-
-
 .wsus__course_product_page .wsus__single_courses_img::after {
     display: none;
 }
@@ -3426,10 +3397,6 @@ footer {
     filter: none !important;
     -webkit-filter: none !important;
 }
-
-
-
-
 
 .wsus__single_courses_2 .rating {
     padding: 0;
@@ -5604,7 +5571,6 @@ footer {
 /* video start */
 .wsus__video {
     height: 910px;
-    /* overflow: hidden; */
     position: relative;
 }
 
@@ -5815,8 +5781,8 @@ footer {
 
 /* testimonial 2 end */
 
-/* blog 3 start */
 
+/* blog 3 start */
 .wsus__blog_3_heading_area_btn {
     text-align: right;
 }
@@ -6010,7 +5976,6 @@ footer {
 }
 
 .wsus__footer_3_logo_area ul li a:hover {
-    /* border-radius: 6px; */
     color: var(--colorWhite);
     background: var(--colorPrimary);
     box-shadow: 0px 4px 11px 0px rgba(53, 109, 241, 0.30);
@@ -6119,7 +6084,6 @@ footer {
     HOME PAGE 04 START
 ============================*/
 /* menu start */
-
 .home_4 .common_btn {
     color: var(--colorBlack);
     background: var(--colorOrange);
@@ -6180,6 +6144,7 @@ footer {
     color: var(--colorBlack);
     font-size: 80px;
     font-weight: 600;
+    position: relative;
 }
 
 .wsus__banner_4_text h1 span {
@@ -6188,6 +6153,21 @@ footer {
     padding: 0px 10px;
     line-height: 80px;
     display: inline-block;
+}
+
+.wsus__banner_4_text h1::after {
+    position: absolute;
+    content: "";
+    background: url(../images/banner_shapes_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 52px;
+    top: -40px;
+    left: -40px;
+    animation: banner_animi_1 linear 3s infinite alternate;
+    -webkit-animation: banner_animi_1 linear 3s infinite alternate;
 }
 
 .wsus__banner_4_text p {
@@ -6212,8 +6192,8 @@ footer {
 
 .wsus__banner_4_text form button {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 6px;
+    right: 6px;
     width: 55px;
     height: 45px;
     line-height: 45px;
@@ -6684,10 +6664,13 @@ footer {
 
 .wsus__video_4_img a {
     position: absolute;
-    width: 170px;
-    height: 170px;
-    line-height: 170px;
-    background: var(--colorWhite);
+    width: 240px;
+    height: 240px;
+    line-height: 240px;
+    border-radius: 270px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(20px);
     box-shadow: none !important;
     top: 50%;
     left: 50%;
@@ -6697,14 +6680,25 @@ footer {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     z-index: 3;
+    margin-right: 0;
+}
+
+.wsus__video_4_img a img {
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .wsus__video_4_img a::after {
     position: absolute;
     content: "";
-    width: 90px;
-    height: 90px;
-    background: var(--colorOrange);
+    width: 160px;
+    height: 160px;
+    background: var(--colorWhite);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -6714,6 +6708,10 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 /* video 4 end */
@@ -6865,7 +6863,6 @@ footer {
 }
 
 .testimonial_4_slider .prevArrow {
-
     right: auto;
     left: -12px;
 }
@@ -7113,7 +7110,6 @@ footer {
 }
 
 /* footer 4 end */
-
 /*============================
     HOME PAGE 04 END
 ============================*/
@@ -7484,7 +7480,6 @@ footer {
 .wsus__sidebar h3 {
     font-size: 20px;
     font-weight: 600;
-    /* 130% */
     margin-top: 32px;
     padding-bottom: 5px;
 }
@@ -7520,7 +7515,6 @@ footer {
 .wsus__sidebar_search button:hover {
     background: var(--colorOrange);
 }
-
 
 .wsus__sidebar_category {
     border-bottom: 1px solid rgba(30, 30, 47, 0.10);
@@ -7585,7 +7579,6 @@ footer {
 
 .wsus__sidebar_sub_category {
     height: 0;
-    /* max-height: 200px !important; */
     overflow: hidden;
     overflow-y: auto;
     padding-left: 5px;
@@ -7729,10 +7722,6 @@ footer {
     background: var(--colorPrimary);
     color: var(--colorWhite);
 }
-
-
-
-
 
 .box_area {
     background: var(--colorWhite);
@@ -7916,7 +7905,6 @@ footer {
 .wsus__courses_sidebar_list_info .common_btn:hover {
     color: var(--colorWhite);
 }
-
 
 .wsus__courses_sidebar_share_btn {
     margin-top: 30px;
@@ -8373,7 +8361,6 @@ footer {
 /*============================
     INSTRUCTOR FINDER START
 ============================*/
-
 .instructor_finder_header {
     background: var(--colorWhite);
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
@@ -8579,8 +8566,6 @@ footer {
     margin-top: 30px;
     margin-bottom: 35px;
 }
-
-
 
 .instructor_details_content .overview {
     gap: 35px;
@@ -8924,7 +8909,6 @@ footer {
 
 .wsus__blog_details_header ul {
     gap: 25px;
-    /* margin-top: 30px; */
 }
 
 .wsus__blog_details_header ul li {
@@ -9066,8 +9050,6 @@ footer {
     color: var(--colorWhite);
 }
 
-
-
 .wsus__blog_det_author {
     background: var(--colorWhite);
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
@@ -9092,7 +9074,6 @@ footer {
 .wsus__blog_det_author .text h3 {
     font-size: 18px;
     font-weight: 600;
-    /* 133.333% */
 }
 
 .wsus__blog_det_author .text h5 {
@@ -9383,14 +9364,10 @@ footer {
     margin-top: 12px;
 }
 
-
 .wsus__sidebar_blog_author .text a:hover {
     background: var(--colorBlack);
     color: var(--colorWhite);
 }
-
-
-
 
 .wsus__sidebar_blog_tags {
     border-top: 1px solid rgba(30, 30, 47, 0.10);
@@ -10160,6 +10137,10 @@ footer {
     margin-top: 10px;
 }
 
+.wsus__forum_categories {
+    position: relative;
+}
+
 .wsus__forum_categories .container {
     position: relative;
 }
@@ -10175,6 +10156,19 @@ footer {
     height: 70px;
     top: 45px;
     left: -25px;
+}
+
+.wsus__forum_categories::before {
+    position: absolute;
+    content: "";
+    background: url(../images/category_4_shapes_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 260px;
+    left: 0px;
+    bottom: 0px;
 }
 
 .wsus__forum_categories_item {
@@ -10197,9 +10191,8 @@ footer {
     width: 75%;
 }
 
-.wsus__forum_categories_item .text h4 {
+.wsus__forum_categories_item .text a {
     font-size: 18px;
-    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -10581,9 +10574,6 @@ footer {
     color: var(--colorBlack);
 }
 
-
-
-
 .forum_terms_and_rules {
     background: var(--colorLightBg);
     padding: 50px;
@@ -10708,7 +10698,6 @@ footer {
 .single_topic_text .top {
     position: relative;
     padding-bottom: 20px;
-    /* margin-bottom: 35px; */
     border-bottom: 1px solid rgba(30, 30, 47, 0.14);
 }
 
@@ -10723,7 +10712,7 @@ footer {
 .single_topic_text .top p span,
 .single_topic_text .top a span {
     display: inline-block;
-    width: 16px;
+    width: 17px;
     margin-right: 5px;
 }
 
@@ -10906,25 +10895,9 @@ footer {
     position: relative;
 }
 
-
-
-
-
-
-
 .wsus__forum_category_list .wsus__different_forum_center ul {
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 .wsus__forum_category_list .wsus__different_forum_left .text ul {
     margin-top: 5px;
@@ -11273,8 +11246,6 @@ footer {
 .cart_list .pro_img {
     width: 10%;
     min-width: 105px;
-    /* padding-right: 25px !important; */
-    /* text-align: center; */
 }
 
 .cart_list .pro_img img {
@@ -11291,7 +11262,6 @@ footer {
     min-width: 100px;
     padding-right: 20px !important;
 }
-
 
 .cart_list .pro_select {
     width: 20%;
@@ -11388,7 +11358,6 @@ footer {
     font-size: 16px;
     font-weight: 400;
     color: var(--paraColor);
-    /* border: 1px solid #72798B40; */
     transition: all linear .3s;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -12177,7 +12146,6 @@ footer {
 ================================*/
 
 
-
 /*============================
     DASHBOARD  START
 ============================*/
@@ -12505,10 +12473,7 @@ footer {
 
 .wsus__dash_course_table .details a {
     font-size: 17px;
-    /* font-weight: 600; */
-    /* line-height: 26px; */
     margin-top: 12px;
-    /* color: var(--colorBlack); */
 }
 
 .wsus__dash_course_table .sale p,
@@ -12544,7 +12509,6 @@ footer {
 }
 
 .wsus__dashboard_profile .text {
-    /* width: 83%; */
     margin-left: 20px;
 }
 
@@ -12773,9 +12737,6 @@ footer {
 
 .wsus__dash_order_table .details a {
     font-size: 16px;
-    /* font-weight: 600; */
-    /* line-height: 24px; */
-    /* color: var(--colorBlack); */
     margin-top: 10px;
 }
 
@@ -12805,7 +12766,6 @@ footer {
 
 .wsus__invoice_logo {
     width: 150px;
-    /* height: 30px; */
 }
 
 .wsus__invoice_heading {
@@ -13159,7 +13119,7 @@ footer {
     height: 46px;
     line-height: 46px;
     text-align: center;
-    border: 1px solid var(--borderColor);
+    border: 1px s olid var(--borderColor);
 }
 
 .wsus__dash_payout_selector .payout_print img {
@@ -13610,10 +13570,6 @@ footer {
     border-color: #86b7fe;
     outline: 0;
     box-shadow: none;
-}
-
-.wsus__dashboard_notification_bottom {
-    /* padding-bottom: 120px; */
 }
 
 /* dashboard notification end */

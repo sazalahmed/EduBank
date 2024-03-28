@@ -554,7 +554,6 @@ $(function () {
     });
 
 
-
     // Range Slider
     $('.basic').alRangeSlider();
     const options = {
@@ -601,7 +600,6 @@ $(function () {
         fade: false,
         asNavFor: '.product_slider_small'
     });
-
     $('.product_slider_small').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -625,8 +623,6 @@ $(function () {
     $(document).ready(function () {
         $('.select_2').select2();
     });
-
-
 
 });
 
