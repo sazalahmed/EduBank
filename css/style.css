@@ -12339,7 +12339,7 @@ footer {
 }
 
 .wsus__dashboard_barfiller .single_bar {
-    margin-top: 18px;
+    margin-top: 22px;
 }
 
 .wsus__dashboard_barfiller .single_bar p {
@@ -12683,7 +12683,7 @@ footer {
 .wsus__dash_order_table .table tr th {
     font-size: 14px;
     font-weight: 500;
-    padding: 35px 0px 5px 30px !important;
+    padding: 20px 0px 20px 30px !important;
     color: var(--paraColor);
     text-transform: uppercase;
     border-top: none !important;
@@ -12691,7 +12691,7 @@ footer {
 
 .wsus__dash_order_table .table tr th,
 .wsus__dash_order_table .table tr td {
-    padding: 20px 0px 20px 30px;
+    padding: 20px 20px 20px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12713,7 +12713,7 @@ footer {
 .wsus__dash_order_table .icon {
     min-width: 120px;
     width: 14%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .wsus__dash_order_table .date {
@@ -12754,6 +12754,10 @@ footer {
     width: 20px;
     height: 20px;
     margin-left: 30px;
+}
+
+.wsus__dash_order_table .icon a:hover img {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(49%) saturate(4327%) hue-rotate(213deg) brightness(96%) contrast(97%);
 }
 
 /* dashboard order end */
@@ -13007,6 +13011,10 @@ footer {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+}
+
+.wsus__dash_student_table th.name input {
+    margin-top: 4px;
 }
 
 .wsus__dash_student_table .form-check-input:focus,
@@ -13413,7 +13421,7 @@ footer {
 }
 
 .wsus__dashboard_profile_update {
-    padding: 30px;
+    padding: 17px 30px 30px 30px;
 }
 
 .wsus__dashboard_profile_update_info {
