@@ -54,7 +54,7 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -221,7 +221,7 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -622,6 +622,29 @@ $(function () {
     // Select2
     $(document).ready(function () {
         $('.select_2').select2();
+    });
+
+
+    // Sticky menu
+    const mobile_menu = document.querySelectorAll(".mobile_dropdown");
+    mobile_menu.forEach((dropdown) => {
+        const innerMenu = dropdown.querySelector(".inner_menu");
+        dropdown.addEventListener("click", () => {
+            if (innerMenu.style.maxHeight) {
+                innerMenu.style.maxHeight = null;
+                dropdown.classList.remove("active");
+            } else {
+                mobile_menu.forEach((item) => {
+                    const menu = item.querySelector(".inner_menu");
+                    if (menu !== innerMenu) {
+                        menu.style.maxHeight = null;
+                        item.classList.remove("active");
+                    }
+                });
+                innerMenu.style.maxHeight = innerMenu.scrollHeight + "px";
+                dropdown.classList.add("active");
+            }
+        });
     });
 
 });

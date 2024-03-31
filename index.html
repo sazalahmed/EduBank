@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/video_player.css">
     <link rel="stylesheet" href="css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/sticky_menu.css">
 
     <link rel=" stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -34,20 +35,20 @@
     ============================-->
     <header>
         <div class="row">
-            <div class="col-xl-4">
+            <div class="col-xxl-5 col-lg-7 col-md-8 d-none d-md-block">
                 <ul class="wsus__header_left d-flex flex-wrap">
                     <li><a href="#"><i class="fab fa-facebook-f"></i> 240k Followers</a></li>
                     <li><a href="callto:+8806545643"><i class="fas fa-phone-alt"></i> +880 654 - 5643</a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i> 58k Followers</a></li>
                 </ul>
             </div>
-            <div class="col-xl-5">
+            <div class="col-xxl-4 col-lg-7 d-none d-xxl-block">
                 <div class="wsus__header_center">
                     <p> <span>Limited-Time Special</span> Use Code to Get 30% Off Your First Buying EduBank. <a
                             href="#">Find out more!</a></p>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xxl-3 col-lg-5 col-md-4">
                 <ul class="wsus__header_right d-flex flex-wrap">
                     <li>
                         <select class="select_js">
@@ -283,12 +284,232 @@
     ============================-->
 
 
+    <!--============================
+        STICKY MENU START
+    ==============================-->
+    <div class="mobile_menu_area">
+        <div class="mobile_menu_area_top">
+            <a class="mobile_menu_logo" href="index.html">
+                <img src="images/logo.png" alt="EduBank">
+            </a>
+            <div class="mobile_menu_icon d-block d-lg-none" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <span class="mobile_menu_icon"><i class="far fa-stream menu_icon_bar"></i></span>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="fal fa-times"></i></button>
+            <div class="offcanvas-body">
+
+                <ul class="mobile_menu_header d-flex flex-wrap">
+                    <li><a href="cart_view.html"><i class="far fa-shopping-basket"></i> <span>2</span></a>
+                    </li>
+                    <li><a href="dashboard.html"><i class="far fa-user"></i></a></li>
+                </ul>
+
+                <form class="mobile_menu_search">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="far fa-search"></i></button>
+                </form>
+
+                <div class="mobile_menu_item_area">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">menu</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Categories</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab" tabindex="0">
+                            <ul class="main_mobile_menu">
+                                <li class="mobile_dropdown">
+                                    <a href="#">home</a>
+                                    <ul class="inner_menu">
+                                        <li><a class="active" href="index.html">Home style 01</a></li>
+                                        <li><a href="index_2.html">Home style 02</a></li>
+                                        <li><a href="index_3.html">Home style 03</a></li>
+                                        <li><a href="index_4.html">Home style 04</a></li>
+                                        <li><a href="index_5_dark.html">Home Dark</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">courses</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses.html">Courses</a></li>
+                                        <li><a href="courses_details.html">Course details</a></li>
+                                        <li><a href="course_video.html">Course video</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">shop</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="products.html">product</a></li>
+                                        <li><a href="products_2.html">product 2</a></li>
+                                        <li><a href="product_details.html">product details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">pages</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="about.html">about us</a></li>
+                                        <li><a href="category.html">Categories</a></li>
+                                        <li><a href="cart_view.html">cart view</a></li>
+                                        <li><a href="checkout.html">checkout</a></li>
+                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="payment.html">payment</a></li>
+                                        <li><a href="pricing.html">pricing</a></li>
+                                        <li><a href="student_reviews.html">student review</a></li>
+                                        <li><a href="instructor.html">Instructor</a></li>
+                                        <li><a href="instructor_details.html">Instructor details</a></li>
+                                        <li><a href="instructor_finder.html">Instructor finder</a></li>
+                                        <li><a href="error.html">error</a></li>
+                                        <li><a href="faq.html">faq</a></li>
+                                        <li><a href="sign_in.html">sign in</a></li>
+                                        <li><a href="sign_up.html">sign up</a></li>
+                                        <li><a href="forum.html">forum</a></li>
+                                        <li><a href="forum_categories.html">forum Categories</a></li>
+                                        <li><a href="forum_create_topic.html">forum create topic</a></li>
+                                        <li><a href="forum_single_topic.html">forum single topic</a></li>
+                                        <li><a href="dashboard.html">Dashboard</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">blog</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="blogs.html">blog grid view</a></li>
+                                        <li><a href="blog_list.html">blog list view</a></li>
+                                        <li><a href="blog_details.html">blog details</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                            tabindex="0">
+                            <ul class="main_mobile_menu">
+                                <li class="mobile_dropdown">
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/menu_category_icon_1.png" alt="Category" class="img-fluid">
+                                        </span>
+                                        Development
+                                    </a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses_details.html">Web Design</a></li>
+                                        <li><a href="courses_details.html">Web Development</a></li>
+                                        <li><a href="courses_details.html">UI/UX Design</a></li>
+                                        <li><a href="courses_details.html">Graphic Design</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/menu_category_icon_2.png" alt="Category" class="img-fluid">
+                                        </span>
+                                        Business
+                                    </a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses_details.html">Web Design</a></li>
+                                        <li><a href="courses_details.html">Web Development</a></li>
+                                        <li><a href="courses_details.html">UI/UX Design</a></li>
+                                        <li><a href="courses_details.html">Graphic Design</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/menu_category_icon_3.png" alt="Category" class="img-fluid">
+                                        </span>
+                                        Marketing
+                                    </a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses_details.html">Web Design</a></li>
+                                        <li><a href="courses_details.html">Web Development</a></li>
+                                        <li><a href="courses_details.html">UI/UX Design</a></li>
+                                        <li><a href="courses_details.html">Graphic Design</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/menu_category_icon_4.png" alt="Category" class="img-fluid">
+                                        </span>
+                                        Lifestyle
+                                    </a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses_details.html">Web Design</a></li>
+                                        <li><a href="courses_details.html">Web Development</a></li>
+                                        <li><a href="courses_details.html">UI/UX Design</a></li>
+                                        <li><a href="courses_details.html">Graphic Design</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/menu_category_icon_5.png" alt="Category" class="img-fluid">
+                                        </span>
+                                        Health & Fitness
+                                    </a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses_details.html">Web Design</a></li>
+                                        <li><a href="courses_details.html">Web Development</a></li>
+                                        <li><a href="courses_details.html">UI/UX Design</a></li>
+                                        <li><a href="courses_details.html">Graphic Design</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/menu_category_icon_6.png" alt="Category" class="img-fluid">
+                                        </span>
+                                        Design
+                                    </a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses_details.html">Web Design</a></li>
+                                        <li><a href="courses_details.html">Web Development</a></li>
+                                        <li><a href="courses_details.html">UI/UX Design</a></li>
+                                        <li><a href="courses_details.html">Graphic Design</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/menu_category_icon_7.png" alt="Category" class="img-fluid">
+                                        </span>
+                                        Academics
+                                    </a>
+                                    <ul class="inner_menu">
+                                        <li><a href="courses_details.html">Web Design</a></li>
+                                        <li><a href="courses_details.html">Web Development</a></li>
+                                        <li><a href="courses_details.html">UI/UX Design</a></li>
+                                        <li><a href="courses_details.html">Graphic Design</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============================
+        STICKY MENU END
+    ==============================-->
+
+
     <!--===========================
         BANNER 2 STARR
     ============================-->
     <section class="wsus__banner_2" style="background: url(images/banner_bg_2.jpg);">
         <div class="row justify-content-between align-items-center">
-            <div class="col-xl-6">
+            <div class="col-xxl-6 col-lg-7 col-xl-6">
                 <div class="wsus__banner_text_2">
                     <h5> <span>Live</span> Forefront of E-Learning</h5>
                     <h1>Premier E-Learning Courses From EduBank.</h1>
@@ -306,7 +527,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xxl-4 col-lg-5 col-xl-5">
                 <div class="wsus__banner_image_2">
                     <div class="img">
                         <img src="images/banner_img_2.png" alt="EduBank" class="img-fluid w-100">
@@ -455,7 +676,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xl-8 m-auto">
+                <div class="col-xl-8 col-lg-9 m-auto">
                     <div class="wsus__filter_area mb_15">
                         <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -497,7 +718,7 @@
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
                     tabindex="0">
                     <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-md-6 col-lg-4">
                             <div class="wsus__single_courses_2 wsus__single_courses">
                                 <div class="wsus__single_courses_img">
                                     <img src="images/courses_2_img_1.jpg" alt="Courses" class="img-fluid">
@@ -555,7 +776,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-md-6 col-lg-4">
                             <div class="wsus__single_courses_2 wsus__single_courses">
                                 <div class="wsus__single_courses_img">
                                     <img src="images/courses_2_img_2.jpg" alt="Courses" class="img-fluid">
@@ -613,7 +834,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-md-6 col-lg-4">
                             <div class="wsus__single_courses_2 wsus__single_courses">
                                 <div class="wsus__single_courses_img">
                                     <img src="images/courses_2_img_3.jpg" alt="Courses" class="img-fluid">
@@ -671,7 +892,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-md-6 col-lg-4">
                             <div class="wsus__single_courses_2 wsus__single_courses">
                                 <div class="wsus__single_courses_img">
                                     <img src="images/courses_2_img_4.jpg" alt="Courses" class="img-fluid">
@@ -1968,7 +2189,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-3">
                     <div class="wsus__features_item orange">
                         <div class="icon">
                             <img src="images/features_icon_1.png" alt="Features" class="img-fluid">
@@ -1979,7 +2200,7 @@
                         <a class="read_btn" href="#">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-3">
                     <div class="wsus__features_item cyan">
                         <div class="icon">
                             <img src="images/features_icon_2.png" alt="Features" class="img-fluid">
@@ -1990,7 +2211,7 @@
                         <a class="read_btn" href="#">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-3">
                     <div class="wsus__features_item pink">
                         <div class="icon">
                             <img src="images/features_icon_3.png" alt="Features" class="img-fluid">
@@ -2001,7 +2222,7 @@
                         <a class="read_btn" href="#">Learn More <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-3">
                     <div class="wsus__features_item blue">
                         <div class="icon">
                             <img src="images/features_icon_4.png" alt="Features" class="img-fluid">
@@ -2026,7 +2247,7 @@
     <section class="wsus__about_2  pt_140 xs_pt_100" style="background: url(images/about_us_bg_2.jpg);">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-md-9 col-lg-7">
                     <div class="wsus__about_2_img">
                         <img src="images/about_2_img_1.png" alt="About Us" class="img-fluid">
                         <div class="video">
@@ -2038,7 +2259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-5">
                     <div class="wsus__about_2_text">
                         <div class="wsus__section_heading heading_left mb_20">
                             <h5>Reasons to Select Us</h5>
@@ -2560,7 +2781,7 @@
     <section class="wsus__testimonial_2 wsus__testimonial mt_120 xs_mt_100 pt_120 xs_pt_100 pb_120 xs_pb_90">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-5">
                     <div class="row testimonial_slider_2_large">
                         <div class="col-12">
                             <div class="wsus__testimonial_2_img">
@@ -2574,9 +2795,7 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-md-7">
                     <div class="wsus__testimonial_2_heading">
                         <div class="wsus__section_heading heading_left mb_40">
                             <h5>testimonials</h5>
@@ -2655,7 +2874,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="wsus__single_blog_2">
                         <div class="wsus__single_blog_2_img">
                             <img src="images/blog_2_img_1.jpg" alt="blog" class="img-fluid w-100">
@@ -2682,7 +2901,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="wsus__single_blog_2">
                         <div class="wsus__single_blog_2_img">
                             <img src="images/blog_2_img_2.jpg" alt="blog" class="img-fluid w-100">
@@ -2709,7 +2928,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="wsus__single_blog_2">
                         <div class="wsus__single_blog_2_img">
                             <img src="images/blog_2_img_3.jpg" alt="blog" class="img-fluid w-100">
@@ -2751,12 +2970,12 @@
     <section class="wsus__subscription mt_120 xs_mt_100">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-xl-5">
+                <div class="col-lg-5 col-md-5 col-lg-6">
                     <div class="wsus__subscription_text">
                         <h2>Eager to Receive Special Offers & Updates on Courses?</h2>
                     </div>
                 </div>
-                <div class="col-xl-5">
+                <div class="col-lg-5 col-md-7 col-lg-6">
                     <form action="#" class="wsus__subscription_form">
                         <input type="text" placeholder="Enter Your Email">
                         <button type="submit" class="common_btn">Subscribe</button>
@@ -2777,7 +2996,7 @@
         <div class="wsus__footer_bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-lg-4">
                         <div class="wsus__logo_area">
                             <a class="logo" href="index.html">
                                 <img src="images/footer_logo.png" alt="EduBank" class="img-fluid">
@@ -2791,7 +3010,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-sm-4 col-lg-4">
                         <div class="wsus__footer_link">
                             <h2>Courses</h2>
                             <ul>
@@ -2803,7 +3022,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-sm-4 col-lg-4">
                         <div class="wsus__footer_link">
                             <h2>Programs</h2>
                             <ul>
@@ -2815,7 +3034,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-sm-4 col-lg-4">
                         <div class="wsus__footer_link">
                             <h2>For Student</h2>
                             <ul>
@@ -2827,7 +3046,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xl-3 col-lg-4">
                         <div class="wsus__footer_instagram">
                             <h3>Instagram</h3>
                             <ul class="d-flex flex-wrap">
@@ -2873,7 +3092,7 @@
                 </div>
             </div>
         </div>
-        <div class="wsus__footer_copyright_area mt_135 xs_pt_95">
+        <div class="wsus__footer_copyright_area mt_135 xs_mt_95">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

@@ -629,6 +629,7 @@ header .wsus__header_right {
 
 header .wsus__header_right li {
     position: relative;
+    padding-right: 20px;
 }
 
 header .wsus__header_right li:first-child {
@@ -669,6 +670,7 @@ header .wsus__header_right li .nice-select:after {
 
 header .wsus__header_right li .nice-select .list {
     margin-top: 0;
+    width: auto;
 }
 
 /* header end */
@@ -750,6 +752,7 @@ header .wsus__header_right li .nice-select .list {
     max-height: 450px;
     overflow: hidden;
     overflow-y: auto;
+    z-index: 9;
 }
 
 .main_menu .droap_menu::-webkit-scrollbar {
@@ -900,7 +903,6 @@ header .wsus__header_right li .nice-select .list {
     flex-wrap: wrap;
     align-items: center;
     padding: 10px 0px;
-    /* border-top: 1px solid var(--borderColor); */
 }
 
 .main_menu .right_menu ul li .menu_signin {
@@ -954,6 +956,17 @@ header .wsus__header_right li .nice-select .list {
     opacity: 0;
     visibility: hidden;
     border-top: 1px solid var(--borderColor);
+    z-index: 9;
+}
+
+.menu_category ul::-webkit-scrollbar {
+    background: var(--colorWhite);
+    width: 3px;
+    height: 30px;
+}
+
+.menu_category ul::-webkit-scrollbar-thumb {
+    background: var(--paraColor);
 }
 
 .menu_category ul li {
@@ -1072,6 +1085,42 @@ header .wsus__header_right li .nice-select .list {
         -o-transform: translateY(0%);
     }
 }
+
+/* mobile menu start */
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    padding: 0;
+    box-shadow: none !important;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border: none;
+}
+
+.navbar-toggler.show {
+    background: red;
+    color: var(--colorWhite);
+}
+
+.navbar-toggler .close_icon_close {
+    display: none;
+}
+
+.navbar-toggler.show .close_icon_close {
+    display: inline-block;
+}
+
+.navbar-toggler.show .menu_icon_bar {
+    display: none;
+}
+
+/* mobile menu end */
 
 /* menu end */
 
@@ -1591,13 +1640,13 @@ header .wsus__header_right li .nice-select .list {
     font-size: 13px;
     font-weight: 500;
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
-    z-index: 9;
     padding: 3px 10px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    z-index: 1;
 }
 
 .wsus__single_courses_img .main_category {
