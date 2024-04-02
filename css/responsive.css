@@ -213,6 +213,33 @@
     }
 
 
+
+    .forum_header_text h1 {
+        font-size: 44px;
+    }
+
+    .forum_header_text h4 {
+        font-size: 36px;
+    }
+
+    .wsus__forum_call_to_action {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .wsus__forum_call_to_action_img {
+        width: auto;
+        height: 520px;
+    }
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -490,11 +517,6 @@
         padding-left: 10px;
     }
 
-
-
-
-
-
     .wsus__contact_map {
         margin-left: 80px;
         margin-right: 80px;
@@ -504,6 +526,140 @@
     .wsus__contact_info {
         padding: 25px;
     }
+
+    /*===========================
+        COURSES VIDEOS START
+    ===========================*/
+    .wsus__course_video_player {
+        /* height: 510px; */
+    }
+
+    .wsus__course_sidebar {
+        border-left: 1px solid #fff;
+    }
+
+    /*===========================
+        COURSES VIDEOS END
+    ===========================*/
+
+
+    /*===========================
+        COURSES DETAILS START
+    ===========================*/
+    .course_details_breadcrumb h1 {
+        max-width: 60%;
+    }
+
+    .wsus__courses_sidebar_video {
+        /* height: 200px; */
+    }
+
+    .wsus__courses_sidebar {
+        /* padding: 20px; */
+        /* margin-top: -225px; */
+    }
+
+    .wsus__courses_overview ul li,
+    .wsus__courses_overview ol li {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+
+    .wsus__courses_review .review_bar {
+        padding-left: 0;
+    }
+
+    .wsus__courses_sidebar_share_btn {
+        gap: 10px;
+    }
+
+    .wsus__courses_sidebar_share_btn a {
+        width: 100%;
+    }
+
+    .wsus__courses_details .wsus__single_review_text {
+        max-width: 88%;
+    }
+
+    /*===========================
+        COURSES DETAILS END
+    ===========================*/
+    .wsus__error_page .img {
+        height: 450px;
+    }
+
+    /*===========================
+        FORUM START
+    ===========================*/
+    .forum_category_header_right .rearch input {
+        width: 300px;
+    }
+
+    .forum_category_header_right .rearch {
+        margin-right: 25px;
+    }
+
+    .wsus__forum_user {
+        padding: 20px;
+    }
+
+    .wsus__forum_user ul li .text {
+        width: 70%;
+    }
+
+
+
+
+
+
+    .forum_header_text h1 {
+        font-size: 52px;
+    }
+
+    .forum_header_text h4 {
+        font-size: 38px;
+    }
+
+    .wsus__forum_categories_item .text {
+        width: 71%;
+    }
+
+    .wsus__forum_topic_item .text {
+        width: 91%;
+    }
+
+    .wsus__forum_call_to_action {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .wsus__forum_call_to_action_img {
+        width: auto;
+        height: 465px;
+    }
+
+    .wsus__forum_call_to_action_text h3 {
+        font-size: 38px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*===========================
+        FORUM END
+    ===========================*/
+
+
+
+
+
 
 
 
@@ -869,11 +1025,6 @@
         padding-left: 20px;
     }
 
-
-
-
-
-
     .wsus__contact_map {
         margin-left: 50px;
         margin-right: 50px;
@@ -883,6 +1034,160 @@
     .wsus__contact_info {
         padding: 35px;
     }
+
+    /*===========================
+        COURSES VIDEOS START
+    ===========================*/
+    .wsus__course_video_player {
+        width: 70%;
+        height: 100%;
+    }
+
+    .wsus__course_sidebar {
+        width: 30%;
+        border-left: 1px solid #fff;
+    }
+
+    /*===========================
+        COURSES VIDEOS END
+    ===========================*/
+
+
+    /*===========================
+        COURSES DETAILS START
+    ===========================*/
+    .course_details_breadcrumb h1 {
+        font-size: 32px;
+        max-width: 50%;
+    }
+
+    .course_details_breadcrumb .wsus__breadcrumb_overlay {
+        padding: 200px 0px 100px 0px;
+    }
+
+    .wsus__courses_sidebar_video {
+        height: 200px;
+    }
+
+    .wsus__courses_sidebar {
+        padding: 20px;
+        margin-top: -225px;
+    }
+
+    .wsus__courses_overview ul li,
+    .wsus__courses_overview ol li {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+
+    .wsus__courses_review .review_bar {
+        padding-left: 0;
+    }
+
+    .wsus__courses_sidebar_share_btn {
+        gap: 10px;
+    }
+
+    .wsus__courses_sidebar_share_btn a {
+        width: 100%;
+    }
+
+    .wsus__courses_details .wsus__single_review_text {
+        max-width: 86%;
+    }
+
+    /*===========================
+        COURSES DETAILS END
+    ===========================*/
+
+    .wsus__error_page .img {
+        height: 425px;
+    }
+
+    /*==========================
+        FOREM START
+    ==========================*/
+    .forum_category_header_right .rearch input {
+        width: 210px;
+    }
+
+    .forum_category_header_right .rearch {
+        margin-right: 10px;
+    }
+
+    .wsus__forum_user {
+        padding: 25px;
+        margin-top: 30px !important;
+    }
+
+    .forum_header {
+        padding: 80px;
+        margin-top: 100px !important;
+    }
+
+    .wsus__counter_2 .wsus__single_counter h2,
+    .wsus__counter_2 .wsus__single_counter h2 span {
+        font-size: 36px;
+    }
+
+    .wsus__single_counter p {
+        font-size: 13px;
+    }
+
+    .wsus__forum_categories_item .text {
+        width: 100%;
+    }
+
+    .wsus__forum_topic_item .text {
+        width: 89%;
+    }
+
+    .wsus__different_forum_right {
+        min-width: 320px;
+    }
+
+    .wsus__forum_call_to_action {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .wsus__forum_call_to_action_text h3 {
+        font-size: 36px;
+        line-height: initial;
+    }
+
+    .wsus__forum_call_to_action_img {
+        width: auto;
+        height: 470px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*==========================
+        FOREM END
+    ==========================*/
+
+
+
+
+
+
+
 
 
 
@@ -1238,6 +1543,334 @@
         margin-right: 50px;
         height: 400px;
     }
+
+    /*==========================
+        COURSES VIDEO START
+    ==========================*/
+    .wsus__course_video {
+        height: auto;
+    }
+
+    .wsus__course_video_player {
+        width: 100%;
+        height: 430px;
+        margin-top: -4px;
+    }
+
+    .video-js .vjs-big-play-button {
+        line-height: 100px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .video-js .vjs-big-play-button span {
+        font-size: 40px;
+    }
+
+    .wsus__course_header a,
+    .wsus__course_header p {
+        font-size: 14px;
+    }
+
+    .wsus__course_sidebar .video_heading {
+        position: initial;
+    }
+
+    .wsus__course_sidebar {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .wsus__course_sidebar .form-check label {
+        font-size: 13px;
+    }
+
+    /*==========================
+        COURSES VIDEO END
+    ==========================*/
+
+
+    /*==========================
+        COURSES DETAILS START
+    ==========================*/
+    .course_details_breadcrumb .wsus__breadcrumb_overlay {
+        padding: 230px 0px 130px 0px;
+    }
+
+    .course_details_breadcrumb h1 {
+        max-width: 100%;
+    }
+
+    .wsus__courses_overview h1,
+    .wsus__courses_overview h2,
+    .wsus__courses_overview h3,
+    .wsus__courses_overview h4,
+    .wsus__courses_overview h5,
+    .wsus__courses_overview h6 {
+        margin-top: 20px;
+    }
+
+    .wsus__courses_overview p {
+        font-size: 14px;
+    }
+
+    .wsus__courses_sidebar {
+        padding: 20px;
+        margin-top: 25px;
+    }
+
+    .wsus__courses_instructor_text {
+        margin-top: 25px;
+    }
+
+    .wsus__courses_review .review_bar {
+        padding-left: 0;
+    }
+
+    .wsus__courses_instructor_text .link {
+        margin-top: 15px;
+    }
+
+    .wsus__courses_instructor_text .description {
+        font-size: 13px;
+    }
+
+    .wsus__courses_details .wsus__single_review_text {
+        max-width: 87%;
+    }
+
+    /*==========================
+        COURSES DETAILS END
+    ==========================*/
+
+    .wsus__sidebar {
+        margin-top: 25px;
+    }
+
+    .wsus__error_page .img {
+        height: 350px;
+    }
+
+    .wsus__faq_img {
+        display: none;
+    }
+
+
+
+
+
+    /*==========================
+        FOREM START
+    ==========================*/
+    .forum_category_header_right .rearch input {
+        width: 325px;
+    }
+
+    .forum_category_header_right {
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .wsus__different_forum_item {
+        padding: 20px;
+    }
+
+    .wsus__different_forum_left .text a {
+        font-size: 16px;
+    }
+
+    .wsus__forum_category_list .wsus__different_forum_left .text ul li {
+        font-size: 13px;
+    }
+
+    .wsus__different_forum_center ul {
+        min-width: auto;
+    }
+
+    .wsus__different_forum_right .text ul li {
+        font-size: 12px;
+    }
+
+    .wsus__forum_category_list .wsus__different_forum_right {
+        min-width: auto;
+    }
+
+    .wsus__forum_user {
+        margin-top: 30px !important;
+    }
+
+    .forum_terms_and_rules {
+        padding: 30px;
+    }
+
+    .forum_terms_and_rules a {
+        position: initial;
+        margin-top: 20px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .single_topic_sidebar {
+        margin-right: 0;
+    }
+
+    .single_topic_text .top ul {
+        margin-top: 10px;
+    }
+
+    .single_topic_sidebar .list li span {
+        display: block;
+        width: 100%;
+    }
+
+    .single_topic_sidebar .list {
+        padding: 20px;
+    }
+
+    .single_topic_sidebar {
+        margin-right: 0;
+        padding-bottom: 0;
+    }
+
+    .single_topic_sidebar .list {
+        padding: 25px;
+    }
+
+    .single_topic_text .top {
+        margin-top: 20px;
+    }
+
+    .forum_header {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 50px;
+        margin-top: 100px !important;
+    }
+
+    .forum_header_text p {
+        max-width: 70%;
+    }
+
+    .forum_header_text form {
+        background: none;
+        box-shadow: none;
+    }
+
+    .forum_header_text form i {
+        top: 25px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .wsus__counter_2 .wsus__single_counter {
+        justify-content: start;
+        padding-left: 30px;
+        padding-bottom: 45px;
+        border: 0;
+    }
+
+    .wsus__counter_2 .wsus__single_counter h2 {
+        text-align: left;
+    }
+
+    .wsus__forum_categories::before,
+    .wsus__forum_categories::after {
+        display: none;
+    }
+
+    .wsus__forum_categories_item .text {
+        width: 100%;
+    }
+
+    .wsus__forum_topic_item {}
+
+    .forum_topic_left ul {
+        width: 100%;
+    }
+
+    .forum_topic_left ul li {}
+
+    .forum_topic_right {
+        margin-top: 10px;
+    }
+
+    .forum_topic_left {
+        gap: 10px;
+    }
+
+    .wsus__forum_call_to_action_img {
+        width: 275px;
+        height: 380px;
+    }
+
+    .wsus__forum_call_to_action {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .wsus__forum_call_to_action_text h3 {
+        font-size: 24px;
+        line-height: initial;
+    }
+
+    .wsus__forum_call_to_action_text ul {
+        margin-top: 20px;
+    }
+
+    .wsus__different_category {
+        padding: 20px;
+    }
+
+    .wsus__forum_topic_item .text {
+        width: 85%;
+    }
+
+    .wsus__different_forum_right {
+        min-width: 100%;
+        margin-top: 20px;
+    }
+
+    /*==========================
+        FOREM START
+    ==========================*/
+
+
+    /*=============================
+        INSTRUCTOR DETAILS START
+    =============================*/
+    .instructor_details_content {
+        padding: 20px;
+    }
+
+    .instructor_details_content .instructor_finder_img {
+        height: 525px;
+    }
+
+    .instructor_details_content .instructor_finder_text {
+        margin-top: 25px;
+    }
+
+    .wsus__single_product_img {
+        height: 260px;
+    }
+
+    .wsus__single_blog_3_img {
+        height: 215px;
+    }
+
+    /*=============================
+        INSTRUCTOR DETAILS END
+    =============================*/
+
+
+
+
 
 
 
@@ -1657,6 +2290,401 @@
     .wsus__contact_info {
         padding: 30px;
     }
+
+    /*==========================
+        COURSES VIDEO START
+    ==========================*/
+    .wsus__course_video {
+        height: auto;
+    }
+
+    .wsus__course_video_player {
+        width: 100%;
+        height: 325px;
+        margin-top: -4px;
+    }
+
+    .video-js .vjs-big-play-button {
+        line-height: 100px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .video-js .vjs-big-play-button span {
+        font-size: 40px;
+    }
+
+    .wsus__course_header a,
+    .wsus__course_header p {
+        font-size: 14px;
+    }
+
+    .wsus__course_sidebar .video_heading {
+        position: initial;
+    }
+
+    .wsus__course_sidebar {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    /*==========================
+        COURSES VIDEO END
+    ==========================*/
+
+
+    /*==========================
+        COURSES DETAILS START
+    ==========================*/
+    .course_details_breadcrumb .wsus__breadcrumb_overlay {
+        padding: 180px 0px 80px 0px;
+    }
+
+    .course_details_breadcrumb h1 {
+        max-width: 100%;
+    }
+
+    .wsus__courses_details_area .nav li button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .box_area {
+        padding: 1px 20px 20px 20px;
+    }
+
+    .wsus__courses_overview h1,
+    .wsus__courses_overview h2,
+    .wsus__courses_overview h3,
+    .wsus__courses_overview h4,
+    .wsus__courses_overview h5,
+    .wsus__courses_overview h6 {
+        margin-top: 20px;
+    }
+
+    .wsus__courses_overview p {
+        font-size: 14px;
+    }
+
+    .wsus__courses_overview ul li,
+    .wsus__courses_overview ol li {
+        width: 100%;
+    }
+
+    .wsus__courses_sidebar {
+        padding: 20px;
+        margin-top: 25px;
+    }
+
+    .wsus__courses_review_input h3,
+    .wsus__courses_review h3,
+    .wsus__courses_curriculum h3,
+    .wsus__courses_instructor h3 {
+        font-size: 20px;
+    }
+
+    .accordion-item button {
+        font-size: 16px;
+    }
+
+    .wsus__courses_instructor_text {
+        margin-top: 25px;
+    }
+
+    .wsus__courses_review .review_bar {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .wsus__courses_sidebar_video {
+        height: 320px;
+    }
+
+    /*==========================
+        COURSES DETAILS END
+    ==========================*/
+
+    .wsus__sidebar {
+        margin-top: 25px;
+    }
+
+    .wsus__error_page .img {
+        height: auto;
+    }
+
+    .wsus__faq_img {
+        display: none;
+    }
+
+    /*==========================
+        FOREM START
+    ==========================*/
+    .forum_category_header_right .rearch {
+        margin-right: 0;
+    }
+
+    .forum_category_header_right {
+        margin-top: 25px;
+        justify-content: start;
+    }
+
+    .forum_category_header_right .rearch input {
+        width: 76%;
+    }
+
+    .forum_category_header_right .common_btn_2 {
+        padding: 13px 20px;
+        font-size: 14px;
+    }
+
+    .wsus__different_forum_item {
+        padding: 20px;
+    }
+
+    .wsus__forum_category_list .wsus__different_forum_left .text ul li {
+        font-size: 12px;
+    }
+
+    .wsus__forum_category_list .wsus__different_forum_center ul {
+        justify-content: start;
+        min-width: auto;
+        margin-right: 15px;
+    }
+
+    .wsus__different_forum_left .text {
+        width: 100%;
+    }
+
+    .wsus__different_forum_center {
+        margin: 15px 0px;
+    }
+
+    .wsus__different_forum_center ul li h4 {
+        text-align: left;
+    }
+
+    .wsus__forum_user {
+        padding: 20px;
+        margin-top: 25px !important;
+    }
+
+    .wsus__forum_category_list .wsus__different_forum_right {
+        min-width: 100%;
+    }
+
+    .wsus__different_forum_left {
+        width: 100%;
+    }
+
+    .wsus__different_forum_left .text {
+        width: 83%;
+    }
+
+    .wsus__different_forum_item {
+        justify-content: start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .forum_terms_and_rules {
+        padding: 30px;
+    }
+
+    .forum_terms_and_rules a {
+        position: initial;
+        margin-top: 20px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+
+
+
+    .single_topic_sidebar {
+        margin-right: 0;
+        padding-bottom: 0;
+    }
+
+    .single_topic_sidebar .list {
+        padding: 25px;
+    }
+
+    .single_topic_text .top {
+        margin-top: 20px;
+    }
+
+    .forum_header {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 40px;
+    }
+
+    .forum_header_text h4 {
+        font-size: 32px;
+    }
+
+    .forum_header_text h1 {
+        font-size: 48px;
+    }
+
+    .forum_header_text p {
+        max-width: 80%;
+    }
+
+    .forum_header_text form {
+        background: none;
+        box-shadow: none;
+    }
+
+    .forum_header_text form i {
+        top: 25px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .wsus__counter_2 .wsus__single_counter {
+        justify-content: start;
+        padding-left: 30px;
+        padding-bottom: 45px;
+        border: 0;
+    }
+
+    .wsus__counter_2 .wsus__single_counter h2 {
+        text-align: left;
+    }
+
+    .wsus__forum_categories::before,
+    .wsus__forum_categories::after,
+    .wsus__forum_categories .container::after {
+        display: none;
+    }
+
+    .wsus__forum_categories_item .text {
+        width: 80%;
+    }
+
+    .wsus__forum_topic_item {}
+
+    .forum_topic_left ul {
+        width: 100%;
+    }
+
+    .forum_topic_left ul li {}
+
+    .forum_topic_right {
+        margin-top: 10px;
+    }
+
+    .forum_topic_left {
+        gap: 10px;
+    }
+
+    .wsus__forum_call_to_action_img {
+        display: none;
+    }
+
+    .wsus__forum_call_to_action {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .wsus__forum_call_to_action_text h3 {
+        font-size: 24px;
+        line-height: initial;
+    }
+
+    .wsus__forum_call_to_action_text ul {
+        margin-top: 20px;
+    }
+
+    .wsus__forum_call_to_action_text {
+        padding: 40px 20px;
+    }
+
+    .wsus__different_category {
+        padding: 20px;
+    }
+
+    .wsus__forum_topic_item .text {
+        width: 100%;
+    }
+
+    /*==========================
+        FOREM END
+    ==========================*/
+
+
+    /*=============================
+        INSTRUCTOR DETAILS START
+    =============================*/
+    .instructor_details_content {
+        padding: 20px;
+    }
+
+    .instructor_details_content .instructor_finder_img {
+        height: 630px;
+        padding-right: 0;
+    }
+
+    .instructor_details_content .instructor_finder_text {
+        margin-top: 25px;
+    }
+
+    .instructor_details_about h1,
+    .instructor_details_about h2,
+    .instructor_details_about h3,
+    .instructor_details_about h4,
+    .instructor_details_about h5,
+    .instructor_details_about h6 {
+        margin-top: 25px;
+    }
+
+    .instructor_details_about {
+        padding: 1px 30px 30px 30px;
+    }
+
+    .wsus__single_product_img {
+        height: 180px;
+    }
+
+    .wsus__single_blog_3_img {
+        height: 350px;
+    }
+
+    .instructor_details_bagdes,
+    .instructor_details_meeting {
+        padding: 30px;
+    }
+
+    .instructor_details_bagdes_item {
+        padding: 20px;
+    }
+
+    /*=============================
+        INSTRUCTOR DETAILS END
+    =============================*/
+
+
+
+
+
+
 
 
 
@@ -2094,10 +3122,458 @@
         padding: 30px;
     }
 
+    /*==========================
+        COURSES VIDEO START
+    ==========================*/
+    .wsus__course_video {
+        height: auto;
+    }
+
+    .wsus__course_video_player {
+        width: 100%;
+        height: 190px;
+        margin-top: 17px;
+    }
+
+    .video-js .vjs-big-play-button {
+        line-height: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .video-js .vjs-big-play-button span {
+        font-size: 20px;
+    }
+
+    .wsus__course_header a,
+    .wsus__course_header p {
+        font-size: 14px;
+    }
+
+    .wsus__course_sidebar .video_heading {
+        position: initial;
+    }
+
+    .wsus__course_sidebar {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .wsus__course_sidebar .form-check label {
+        font-size: 13px;
+    }
+
+    /*==========================
+        COURSES VIDEO END
+    ==========================*/
 
 
+    /*==========================
+        COURSES DETAILS START
+    ==========================*/
+    .course_details_breadcrumb .wsus__breadcrumb_overlay {
+        padding: 180px 0px 80px 0px;
+    }
+
+    .course_details_breadcrumb h1 {
+        max-width: 100%;
+    }
+
+    .wsus__courses_details_area .nav li button {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .box_area {
+        padding: 1px 20px 20px 20px;
+    }
+
+    .wsus__courses_overview h1,
+    .wsus__courses_overview h2,
+    .wsus__courses_overview h3,
+    .wsus__courses_overview h4,
+    .wsus__courses_overview h5,
+    .wsus__courses_overview h6 {
+        margin-top: 20px;
+    }
+
+    .wsus__courses_overview p {
+        font-size: 14px;
+    }
+
+    .wsus__courses_overview ul li,
+    .wsus__courses_overview ol li {
+        width: 100%;
+    }
+
+    .wsus__courses_sidebar {
+        padding: 20px;
+        margin-top: 25px;
+    }
+
+    .wsus__courses_sidebar_share_btn {
+        gap: 10px;
+    }
+
+    .wsus__courses_sidebar_share_btn a {
+        width: 100%;
+    }
+
+    .wsus__courses_review_input h3,
+    .wsus__courses_review h3,
+    .wsus__courses_curriculum h3,
+    .wsus__courses_instructor h3 {
+        font-size: 20px;
+    }
+
+    .accordion-item button {
+        font-size: 16px;
+    }
+
+    .wsus__courses_instructor_text {
+        margin-top: 25px;
+    }
+
+    .wsus__courses_review .review_bar {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .wsus__single_review_text h6 span {
+        display: block;
+        margin-top: 7px;
+    }
+
+    /*==========================
+        COURSES DETAILS END
+    ==========================*/
+
+    .wsus__page_courses_header {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .wsus__page_courses_header form {
+        justify-content: center;
+    }
+
+    .wsus__sidebar {
+        margin-top: 25px;
+    }
+
+    .wsus__error_page .img {
+        height: auto;
+    }
+
+    .wsus__error_page h2 {
+        font-size: 24px;
+    }
+
+    .wsus__faq_img {
+        display: none;
+    }
+
+    /*==========================
+        FOREM START
+    ==========================*/
+    .forum_category_header_right .rearch {
+        margin-right: 0;
+        margin-top: 25px;
+    }
+
+    .forum_category_header_right .rearch input {
+        width: 76%;
+    }
+
+    .forum_category_header_right {
+        justify-content: start;
+    }
+
+    .forum_category_header_right .common_btn_2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .wsus__different_forum_item {
+        padding: 20px;
+    }
+
+    .wsus__forum_category_list .wsus__different_forum_left .text ul li {
+        font-size: 12px;
+    }
+
+    .wsus__forum_category_list .wsus__different_forum_center ul {
+        justify-content: start;
+    }
+
+    .wsus__different_forum_left .text {
+        width: 100%;
+    }
+
+    .wsus__different_forum_center {
+        margin: 15px 0px;
+    }
+
+    .wsus__different_forum_center ul li h4 {
+        text-align: left;
+    }
+
+    .wsus__forum_user {
+        padding: 20px;
+        margin-top: 25px !important;
+    }
+
+    .forum_terms_and_rules {
+        padding: 25px;
+    }
+
+    .forum_terms_and_rules a {
+        position: initial;
+        margin-top: 20px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .forum_terms_and_rules h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .forum_create_topic_input .file p {
+        max-width: initial;
+        width: auto;
+    }
+
+    .forum_create_topic_input .file button {
+        right: 0;
+    }
+
+    .forum_create_topic_input .file {
+        width: 100%;
+    }
+
+    .single_topic_sidebar {
+        margin-right: 0;
+        padding-bottom: 0;
+    }
+
+    .single_topic_sidebar .list {
+        padding: 25px;
+    }
+
+    .single_topic_text .top {
+        margin-top: 20px;
+    }
+
+    .single_topic_text .top ul {
+        margin-top: 20px;
+    }
+
+    .forum_header {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 25px;
+    }
+
+    .forum_header_text h4 {
+        font-size: 24px;
+    }
+
+    .forum_header_text h1 {
+        font-size: 32px;
+    }
+
+    .forum_header_text form button {
+        position: initial;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .forum_header_text form {
+        background: none;
+        box-shadow: none;
+    }
+
+    .forum_header_text form i {
+        top: 25px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .wsus__counter_2 .wsus__single_counter {
+        justify-content: start;
+        padding-left: 30px;
+        padding-bottom: 45px;
+    }
+
+    .wsus__counter_2 .wsus__single_counter h2 {
+        text-align: left;
+    }
+
+    .wsus__forum_categories::before,
+    .wsus__forum_categories::after,
+    .wsus__forum_categories .container::after {
+        display: none;
+    }
+
+    .wsus__forum_categories_item .text {
+        width: 100%;
+    }
+
+    .wsus__forum_topic_item {
+        padding: 20px;
+    }
+
+    .forum_topic_left ul li {
+        padding-right: 0;
+        margin-right: 0;
+        border-right: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .forum_topic_right {
+        margin-top: 10px;
+    }
+
+    .forum_topic_left {
+        gap: 5px;
+    }
+
+    .wsus__different_forum_right .text ul li {
+        width: 100%;
+    }
+
+    .wsus__different_forum_right .text ul li:last-child {
+        border-left: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .wsus__forum_call_to_action_img {
+        display: none;
+    }
+
+    .wsus__forum_call_to_action {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .wsus__forum_call_to_action_text h3 {
+        font-size: 18px;
+        line-height: initial;
+    }
+
+    .wsus__forum_call_to_action_text ul {
+        margin-top: 20px;
+    }
+
+    .wsus__forum_call_to_action_text {
+        padding: 20px 10px;
+    }
+
+    .wsus__different_category {
+        padding: 20px;
+    }
+
+    .wsus__forum_topic_item .text {
+        width: 100%;
+    }
+
+    /*==========================
+        FOREM END
+    ==========================*/
 
 
+    /*=============================
+        INSTRUCTOR DETAILS START
+    =============================*/
+    .instructor_details_content {
+        padding: 20px;
+    }
+
+    .instructor_details_content .instructor_finder_img {
+        height: auto;
+        padding-right: 0;
+    }
+
+    .instructor_finder_text .rating {
+        position: initial;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .instructor_details_content .instructor_finder_text {
+        margin-top: 25px;
+    }
+
+    .instructor_finder_text .list li {
+        border-right: 0;
+        margin-right: 0;
+        padding-right: 0;
+        line-height: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .instructor_det_tabs li button {
+        font-size: 12px;
+        padding: 3px 12px;
+    }
+
+    .instructor_details_about h1,
+    .instructor_details_about h2,
+    .instructor_details_about h3,
+    .instructor_details_about h4,
+    .instructor_details_about h5,
+    .instructor_details_about h6 {
+        margin-top: 25px;
+    }
+
+    .instructor_details_about {
+        padding: 1px 30px 30px 30px;
+    }
+
+    .instructor_details_about .skills li a {
+        font-size: 11px;
+        padding: 0px 11px;
+    }
+
+    .wsus__single_product_img {
+        height: auto;
+    }
+
+    .wsus__single_blog_3_img {
+        height: auto;
+    }
+
+    .wsus__single_blog_3_text .title {
+        font-size: 18px;
+    }
+
+    .wsus__single_blog_3 {
+        padding: 20px;
+    }
+
+    .instructor_details_bagdes,
+    .instructor_details_meeting {
+        padding: 30px;
+    }
+
+    .instructor_details_bagdes_item {
+        padding: 20px;
+    }
+
+    /*=============================
+        INSTRUCTOR DETAILS END
+    =============================*/
 
 
 

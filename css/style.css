@@ -7857,8 +7857,9 @@ footer {
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
     padding: 25px;
     position: relative;
-    top: -295px;
+    margin-top: -295px;
     overflow: hidden;
+    z-index: 3;
 }
 
 .wsus__courses_sidebar_video {
@@ -11263,10 +11264,10 @@ footer {
 }
 
 .wsus__forum_single_topic_input textarea {
-    padding: 0;
     color: var(--colorBlack);
     font-size: 16px;
     font-weight: 400;
+    padding: 20px;
 }
 
 .wsus__forum_single_topic_input textarea::placeholder {
