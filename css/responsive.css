@@ -196,9 +196,6 @@
         padding: 35px;
     }
 
-
-
-
     /*===========================
         ABOUT PAGE END
     ===========================*/
@@ -211,8 +208,6 @@
         margin-left: 100px;
         margin-right: 100px;
     }
-
-
 
     .forum_header_text h1 {
         font-size: 44px;
@@ -231,6 +226,27 @@
         width: auto;
         height: 520px;
     }
+
+    .payment_mathod {
+        height: 95px;
+    }
+
+    .wsus__sign_form_area .social_login li {
+        width: 31%;
+    }
+
+    .wsus__sign_form_area form {
+        padding: 40px;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -607,11 +623,6 @@
         width: 70%;
     }
 
-
-
-
-
-
     .forum_header_text h1 {
         font-size: 52px;
     }
@@ -642,19 +653,116 @@
         font-size: 38px;
     }
 
-
-
-
-
-
-
-
-
-
-
     /*===========================
         FORUM END
     ===========================*/
+
+
+    /*=============================
+        INSTRUCTOR DETAILS START
+    =============================*/
+    .instructor_details_content .instructor_finder_img {
+        padding-right: 0;
+    }
+
+    .wsus__single_product_img {
+        height: 195px;
+    }
+
+    .instructor_details_blog .wsus__single_blog_3_img {
+        height: 195px;
+    }
+
+    .instructor_details_bagdes_item {
+        padding: 30px;
+    }
+
+    /*=============================
+        INSTRUCTOR DETAILS END
+    =============================*/
+
+
+
+    /*=============================
+        INSTRUCTOR FINDER START
+    =============================*/
+    .instructor_finder_text {
+        width: 63%;
+    }
+
+    .instructor_finder_text .badges {
+        margin-top: 25px;
+    }
+
+    /*=============================
+        INSTRUCTOR FINDER END
+    =============================*/
+
+    .wsus__single_instructor_img {
+        height: 460px;
+    }
+
+    .payment_mathod {
+        height: 85px;
+    }
+
+    .wsus__single_pricing {
+        padding: 25px;
+    }
+
+    /*=============================
+        PRODUCT DETAILS START
+    =============================*/
+    .product_slider_large_item {
+        margin-right: 10px;
+    }
+
+    .product_slider_small_item {
+        width: 80px;
+        height: 90px;
+        padding: 6px 10px;
+    }
+
+    .wsus__product_details .wsus__single_review_text {
+        max-width: 88%;
+    }
+
+    /*=============================
+        PRODUCT DETAILS END
+    =============================*/
+
+
+    /*=============================
+        SIGN IN START
+    =============================*/
+    .wsus__sign_form_area .social_login li {
+        width: 31%;
+    }
+
+    .wsus__sign_form_area form {
+        padding: 30px;
+    }
+
+    .wsus__sign_in .back_btn {
+        top: 30px;
+        right: 30px;
+    }
+
+    .wsus__sign_form_area .new_user {
+        margin-bottom: 0;
+    }
+
+    /*=============================
+        SIGN IN END
+    =============================*/
+
+    .wsus__testimonial_text {
+        padding: 25px;
+    }
+
+
+
+
 
 
 
@@ -1161,34 +1269,143 @@
         height: 470px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*==========================
         FOREM END
     ==========================*/
 
 
+    /*=============================
+        INSTRUCTOR DETAILS START
+    =============================*/
+    .instructor_details_content .instructor_finder_img {
+        padding-right: 0;
+    }
+
+    .wsus__single_product_img {
+        height: 225px;
+    }
+
+    .instructor_details_blog .wsus__single_blog_3_img {
+        height: 185px;
+    }
+
+    .wsus__single_blog_3 {
+        padding: 20px;
+    }
+
+    /*=============================
+        INSTRUCTOR DETAILS END
+    =============================*/
 
 
+    /*=============================
+        INSTRUCTOR FINDER END
+    =============================*/
+    .instructor_finder_text {
+        width: 61%;
+        padding: 40px 20px 20px 20px;
+    }
+
+    .instructor_finder_img {
+        width: 240px;
+        height: 325px;
+    }
+
+    .instructor_finder_text .list li {
+        font-size: 13px;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+
+    .instructor_finder_text .badges {
+        margin-top: 20px;
+    }
+
+    .instructor_finder_text .list {
+        margin-bottom: 20px;
+    }
+
+    /*=============================
+        INSTRUCTOR FINDER END
+    =============================*/
+    .wsus__single_instructor_img {
+        height: 380px;
+    }
+
+    .payment_mathod {
+        height: 85px;
+    }
+
+    .wsus__single_pricing {
+        padding: 20px;
+    }
+
+    .wsus__single_pricing ul li {
+        font-size: 14px;
+    }
+
+    .wsus__pricing_tabs_area p {
+        top: -15px;
+    }
+
+    /*=============================
+        PRODUCT DETAILS END
+    =============================*/
+    .product_slider_large_item {
+        margin-right: 0;
+        height: 500px;
+    }
+
+    .product_slider_small_item {
+        width: 65px;
+        height: 85px;
+        padding: 5px;
+    }
+
+    .wsus__product_details_text h2 {
+        font-size: 28px;
+    }
+
+    .wsus__product_details_text .description {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .wsus__product_details_text .wsus__btn_area {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    /*=============================
+        PRODUCT DETAILS END
+    =============================*/
 
 
+    /*=============================
+        SIGN IN START
+    =============================*/
+    .wsus__sign_form_area .social_login li {
+        width: 31.5%;
+    }
 
+    .wsus__sign_form_area form {
+        padding: 35px;
+    }
 
+    .wsus__sign_in .back_btn {
+        top: 30px;
+        right: 30px;
+    }
+
+    .wsus__sign_form_area .new_user {
+        margin-bottom: 0;
+    }
+
+    /*=============================
+        SIGN IN END
+    =============================*/
 
 
 
@@ -1869,6 +2086,133 @@
     =============================*/
 
 
+    /*=============================
+        INSTRUCTOR FINDER START
+    =============================*/
+    .instructor_finder_header .nice-select {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .instructor_finder_header {
+        padding: 30px;
+    }
+
+    .instructor_finder_text {
+        width: 61%;
+    }
+
+    .instructor_finder_text .list li {
+        font-size: 13px;
+    }
+
+    .instructor_finder_text .badges {
+        margin-top: 25px;
+    }
+
+    /*=============================
+        INSTRUCTOR FINDER END
+    =============================*/
+
+    .wsus__single_instructor_img {
+        height: 435px;
+    }
+
+    .wsus__pricing_area {
+        background: var(--colorWhite);
+        padding: 0;
+    }
+
+    .wsus__single_pricing {
+        box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+    }
+
+    .wsus__pricing_tabs_area p {
+        top: -10px;
+        right: -150px;
+    }
+
+
+
+
+    .wsus__product_details_text {
+        margin-top: 20px;
+    }
+
+    .peoduct_details_description,
+    .peoduct_details_additional_info,
+    .peoduct_details_reviews {
+        padding: 35px;
+    }
+
+    .wsus__product_details .wsus__single_review_text {
+        max-width: 88%;
+    }
+
+    /*=============================
+        SIGN IN START
+    =============================*/
+    .wsus__sign_in {
+        height: auto;
+    }
+
+    .wsus__sign_img {
+        display: none;
+    }
+
+    .wsus__sign_form_area {
+        margin: 70px 20px 20px 20px;
+    }
+
+    .wsus__sign_form_area form {
+        padding: 30px;
+    }
+
+    .wsus__sign_in .back_btn {
+        top: 20px;
+        right: 20px;
+    }
+
+    .wsus__sign_form_area .social_login li {
+        width: 31.2%;
+    }
+
+    .wsus__sign_form_area .new_user {
+        margin-bottom: 0;
+    }
+
+    /*=============================
+        SIGN IN END
+    =============================*/
+
+
+    /*=============================
+        TESTIMONIAL START
+    =============================*/
+    .wsus__testimonial_3_video {
+        height: 480px;
+    }
+
+    .wsus__testimonial_text .bottom p {
+        margin-top: 15px;
+    }
+
+    .wsus__testimonial_text {
+        height: 480px;
+        padding: 20px;
+    }
+
+    .wsus__testimonial_text .top .description {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    /*=============================
+        TESTIMONIAL END
+    =============================*/
+
+
+
 
 
 
@@ -1950,7 +2294,7 @@
     }
 
     .wsus__single_courses_2 .wsus__single_courses_img {
-        height: 330px;
+        height: 160px;
     }
 
     .wsus__about_2_img {
@@ -2679,6 +3023,159 @@
     /*=============================
         INSTRUCTOR DETAILS END
     =============================*/
+
+
+    /*=============================
+        INSTRUCTOR FINDER START
+    =============================*/
+    .instructor_finder_header {
+        padding: 20px;
+    }
+
+    .instructor_finder_header .check_list {
+        gap: 15px;
+    }
+
+    .instructor_finder_header .nice-select {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .instructor_finder_text {
+        width: 100%;
+    }
+
+    .instructor_finder_header .form-switch label {
+        font-size: 14px;
+    }
+
+    .instructor_finder_text .rating {
+        position: initial;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    /*=============================
+        INSTRUCTOR FINDER END
+    =============================*/
+
+    .wsus__single_instructor_img {
+        height: 665px;
+    }
+
+    .wsus__pricing_tabs_area p {
+        display: none;
+    }
+
+    .wsus__pricing_area {
+        padding: 0;
+    }
+
+    .wsus__pricing_area {
+        background: var(--colorWhite);
+    }
+
+    .wsus__single_pricing {
+        box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+    }
+
+
+    /*=============================
+        PRODUCT DETAILS START
+    =============================*/
+    .product_slider_large_item {
+        height: 700px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .wsus__product_details_text {
+        margin-top: 20px;
+    }
+
+    .peoduct_details_description,
+    .peoduct_details_additional_info,
+    .peoduct_details_reviews {
+        padding: 35px;
+    }
+
+    .peoduct_details_description h2,
+    .peoduct_details_additional_info h2,
+    .peoduct_details_reviews h2 {
+        font-size: 20px;
+    }
+
+    .peoduct_details_additional_info ul li,
+    .peoduct_details_additional_info ul li span {
+        font-size: 16px;
+    }
+
+    .peoduct_details_additional_info ul li span {
+        font-size: 16px;
+        width: 100px;
+    }
+
+    /*=============================
+        PRODUCT DETAILS END
+    =============================*/
+
+
+    /*=============================
+        SIGN IN START
+    =============================*/
+    .wsus__sign_in {
+        height: auto;
+    }
+
+    .wsus__sign_img {
+        display: none;
+    }
+
+    .wsus__sign_form_area {
+        margin: 70px 20px 20px 20px;
+    }
+
+    .wsus__sign_form_area form {
+        padding: 25px;
+    }
+
+    .wsus__sign_in .back_btn {
+        top: 20px;
+        right: 20px;
+    }
+
+    .wsus__sign_form_area .social_login li {
+        width: 31.2%;
+    }
+
+    /*=============================
+        SIGN IN END
+    =============================*/
+
+
+    /*=============================
+        TESTIMONIAL START
+    =============================*/
+    .wsus__testimonial_3_video {
+        height: 715px;
+    }
+
+    .wsus__testimonial_text {
+        height: 425px;
+    }
+
+    .wsus__testimonial_text .bottom p {
+        margin-top: 20px;
+    }
+
+    .wsus__testimonial_text .top .description {
+        margin-bottom: 30px;
+    }
+
+    /*=============================
+        TESTIMONIAL END
+    =============================*/
+
 
 
 
@@ -3574,6 +4071,182 @@
     /*=============================
         INSTRUCTOR DETAILS END
     =============================*/
+
+
+    /*=============================
+        INSTRUCTOR FINDER START
+    =============================*/
+    .instructor_finder_header {
+        padding: 20px;
+    }
+
+    .instructor_finder_header .check_list {
+        gap: 15px;
+    }
+
+    .instructor_finder_header .nice-select {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .instructor_finder_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .instructor_finder_text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /*=============================
+        INSTRUCTOR FINDER END
+    =============================*/
+
+
+    /*=============================
+        INSTRUCTOR PAGE START
+    =============================*/
+
+    .wsus__single_instructor_img {
+        height: auto;
+    }
+
+    .wsus__single_instructor_text {
+        padding: 20px;
+    }
+
+    /*=============================
+        INSTRUCTOR PAGE END
+    =============================*/
+    .payment_mathod {
+        height: 80px;
+    }
+
+    .payment .modal .modal-content {
+        padding: 20px;
+    }
+
+    .wsus__pricing_tabs_area p {
+        display: none;
+    }
+
+    .wsus__pricing_area {
+        padding: 0;
+    }
+
+    .wsus__pricing_area {
+        background: var(--colorWhite);
+    }
+
+    .wsus__single_pricing {
+        box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
+    }
+
+    /*=============================
+        PRODUCT DETAILS START
+    =============================*/
+    .product_slider_large_item {
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .wsus__product_details_text {
+        margin-top: 20px;
+    }
+
+    .wsus__product_details_text h2 {
+        font-size: 22px;
+    }
+
+
+    .peoduct_details_description,
+    .peoduct_details_additional_info,
+    .peoduct_details_reviews {
+        padding: 25px;
+    }
+
+    .peoduct_details_description h2,
+    .peoduct_details_additional_info h2,
+    .peoduct_details_reviews h2 {
+        font-size: 20px;
+    }
+
+    .peoduct_details_additional_info ul li span {
+        width: 100%;
+    }
+
+    /*=============================
+        PRODUCT DETAILS END
+    =============================*/
+
+
+    /*=============================
+        SIGN IN START
+    =============================*/
+    .wsus__sign_in {
+        height: auto;
+    }
+
+    .wsus__sign_img {
+        display: none;
+    }
+
+    .wsus__sign_form_area {
+        margin: 70px 20px 20px 20px;
+    }
+
+    .wsus__sign_form_area form {
+        padding: 20px;
+    }
+
+    .wsus__sign_form_area h2 {
+        font-size: 24px;
+    }
+
+    .wsus__sign_in .back_btn {
+        top: 20px;
+        right: 20px;
+    }
+
+    .wsus__sign_form_area .social_login li {
+        width: 100%;
+    }
+
+    /*=============================
+        SIGN IN END
+    =============================*/
+
+
+    /*=============================
+        TESTIMONIAL START
+    =============================*/
+    .wsus__testimonial_3_video {
+        height: auto;
+    }
+
+    .wsus__testimonial_3_video .overlay {
+        padding: 20px;
+    }
+
+    .wsus__testimonial_text {
+        height: auto;
+        padding: 20px;
+    }
+
+    .wsus__testimonial_text .bottom p {
+        margin-top: 20px;
+    }
+
+    .wsus__testimonial_text .top .description {
+        margin-bottom: 30px;
+    }
+
+    /*=============================
+        TESTIMONIAL END
+    =============================*/
+
 
 
 

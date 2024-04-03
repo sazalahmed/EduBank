@@ -598,8 +598,9 @@ $(function () {
         slidesToScroll: 1,
         arrows: false,
         fade: false,
-        asNavFor: '.product_slider_small'
+        asNavFor: '.product_slider_small',
     });
+
     $('.product_slider_small').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -610,6 +611,21 @@ $(function () {
         centerPadding: "0",
         focusOnSelect: true,
         vertical: true,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 6,
+                }
+            }
+        ]
     });
 
 
