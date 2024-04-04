@@ -23,11 +23,6 @@
         right: -45px;
     }
 
-    .wsus__banner_text_2 h1 {
-        font-size: 62px;
-    }
-
-
 
     /*===========================
         HOME PAGE 01 END
@@ -42,68 +37,7 @@
         font-size: 22px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 
 
 @media (min-width: 1400px) and (max-width: 1600px) {
@@ -158,7 +92,7 @@
     }
 
     .wsus__subscription_text::after {
-        right: -40px;
+        right: -160px;
     }
 
     .wsus__footer_instagram {
@@ -238,6 +172,22 @@
     .wsus__sign_form_area form {
         padding: 40px;
     }
+
+
+
+
+    .wsus__subscription_text {
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -345,7 +295,7 @@
     }
 
     .wsus__subscription_text::after {
-        right: -50px;
+        right: -180px;
     }
 
     .wsus__footer_instagram {
@@ -795,6 +745,14 @@
 
     /* invoice end */
 
+    .wsus__subscription_text {
+        width: 80%;
+    }
+
+    .wsus__subscription_form {
+        padding-left: 100px;
+    }
+
 }
 
 
@@ -972,7 +930,7 @@
     }
 
     .wsus__subscription_text::after {
-        right: -70px;
+        right: -110px;
     }
 
     .wsus__features_item h3 {
@@ -1513,14 +1471,16 @@
     }
 
     /* invoice end */
-
-
-
-
     /*=============================
         DASHBOARD END
     =============================*/
+    .wsus__subscription_text {
+        width: 90%;
+    }
 
+    .wsus__subscription_form {
+        padding-left: 50px;
+    }
 
 
 
@@ -2480,6 +2440,18 @@
     /*=============================
         DASHBOARD END
     =============================*/
+
+    .wsus__subscription_text {
+        width: 100%;
+    }
+
+    .wsus__subscription_form {
+        padding-left: 50px;
+    }
+
+    .wsus__subscription_text::after {
+        display: none;
+    }
 }
 
 
@@ -3601,6 +3573,15 @@
     /*=============================
         DASHBOARD END
     =============================*/
+
+    .wsus__subscription_text {
+        width: 100%;
+    }
+
+    .wsus__subscription_form {
+        padding-left: 0;
+    }
+
 
 }
 
@@ -4857,4 +4838,15 @@
     /*=============================
         DASHBOARD END
     =============================*/
+
+    .wsus__subscription_text {
+        width: 100%;
+    }
+
+    .wsus__subscription_form {
+        padding-left: 0;
+    }
+
+
+
 }

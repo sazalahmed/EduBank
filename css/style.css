@@ -2692,6 +2692,7 @@ header .wsus__header_right li .nice-select .list {
 
 .wsus__subscription_text {
     position: relative;
+    width: 70%;
 }
 
 .wsus__subscription_text::after {
@@ -2710,6 +2711,7 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__subscription_text h2 {
+
     color: var(--colorWhite);
     font-size: 30px;
     font-weight: 600;
@@ -2719,6 +2721,7 @@ header .wsus__header_right li .nice-select .list {
 .wsus__subscription_form {
     position: relative;
     overflow: hidden;
+    padding-left: 150px;
 }
 
 .wsus__subscription_form input {
