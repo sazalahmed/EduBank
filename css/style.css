@@ -129,6 +129,10 @@ button {
     z-index: -1;
     background: var(--colorBlack);
     transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .common_btn:hover,
@@ -206,6 +210,10 @@ button {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .slick-dots li.slick-active button {
@@ -578,6 +586,10 @@ header .wsus__header_left li a {
     font-size: 14px;
     font-weight: 500;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 header .wsus__header_left li a i {
@@ -1181,7 +1193,7 @@ header .wsus__header_right li .nice-select .list {
 }
 
 @keyframes banner_animi_1 {
-    form {
+    from {
         transform: scale(1)rotate(0deg);
         -webkit-transform: scale(1)rotate(0deg);
         -moz-transform: scale(1)rotate(0deg);
@@ -1214,12 +1226,12 @@ header .wsus__header_right li .nice-select .list {
 }
 
 @keyframes banner_animi_2 {
-    form {
-        transform: translate(1);
-        -webkit-transform: translate(1);
-        -moz-transform: translate(1);
-        -ms-transform: translate(1);
-        -o-transform: translate(1);
+    from {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
     }
 
     to {
@@ -1272,7 +1284,7 @@ header .wsus__header_right li .nice-select .list {
 }
 
 @keyframes banner_image_animi {
-    form {
+    from {
         transform: translateY(0px);
         -webkit-transform: translateY(0px);
         -moz-transform: translateY(0px);
@@ -1690,6 +1702,10 @@ header .wsus__header_right li .nice-select .list {
     height: 16px !important;
     margin: 0 auto;
     transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
 }
 
 .wsus__single_courses_img ul li a:hover {
@@ -1963,6 +1979,10 @@ header .wsus__header_right li .nice-select .list {
     display: block;
     margin-top: 13px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__hotline_text .call a:hover,
@@ -2155,6 +2175,10 @@ header .wsus__header_right li .nice-select .list {
     -o-transition: all linear .3s;
     opacity: 0;
     visibility: hidden;
+    -webkit-transform: scaleY(.5);
+    -moz-transform: scaleY(.5);
+    -ms-transform: scaleY(.5);
+    -o-transform: scaleY(.5);
 }
 
 .wsus__instructor_social_icon ul li a {
@@ -2176,6 +2200,10 @@ header .wsus__header_right li .nice-select .list {
 .wsus__instructor_social_icon ul li a:hover {
     transform: rotate(45deg);
     background: var(--colorWhite);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 
 .wsus__instructor_social_icon:hover span {
@@ -2200,7 +2228,6 @@ header .wsus__header_right li .nice-select .list {
     bottom: 0;
     background: var(--colorWhite);
     left: 5%;
-    /* box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12); */
     padding: 25px 25px 25px 25px;
     box-shadow: 0px 30px 30px 0px rgba(30, 30, 47, 0.10);
 }
@@ -2450,7 +2477,6 @@ header .wsus__header_right li .nice-select .list {
     margin-bottom: 25px;
 }
 
-
 .wsus__single_testimonial h3 {
     font-size: 20px;
     font-weight: 600;
@@ -2494,6 +2520,10 @@ header .wsus__header_right li .nice-select .list {
 .wsus__testimonial .total_review a {
     color: var(--colorPrimary);
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__testimonial .total_review a:hover {
@@ -2836,6 +2866,10 @@ footer {
     transition: all linear .3s;
     background: rgba(255, 255, 255, 0.10);
     box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__footer_info ul li a:hover {
@@ -3223,6 +3257,10 @@ footer {
     transform: translateY(-50%);
     animation: banner_2_animi_1 linear 1s infinite alternate;
     -webkit-animation: banner_2_animi_1 linear 1s infinite alternate;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 @keyframes banner_2_animi_1 {
@@ -3281,6 +3319,10 @@ footer {
     left: -5%;
     transform: rotate(-1deg);
     z-index: -1;
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
 }
 
 .wsus__headline_slider .marquee_animi {
@@ -3990,6 +4032,10 @@ footer {
     visibility: hidden;
     position: absolute;
     bottom: 40px;
+    -webkit-transform: scaleY(.5);
+    -moz-transform: scaleY(.5);
+    -ms-transform: scaleY(.5);
+    -o-transform: scaleY(.5);
 }
 
 .wsus__instructor_2_social_icon .icon li a {
@@ -4280,7 +4326,7 @@ footer {
 .footer_2 {
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background-size: cover 1ic;
+    background-size: cover !important;
 }
 
 .footer_2 .wsus__footer_link {
@@ -4505,6 +4551,10 @@ footer {
     transform: scale(1);
     opacity: 1;
     visibility: visible;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
 /* menu  3 end */
@@ -5640,6 +5690,10 @@ footer {
     background: rgba(30, 30, 47, 0.10);
     border: 1px solid rgba(255, 255, 255, 0.30);
     backdrop-filter: blur(4px);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .wsus__video .play_btn::after {
@@ -6401,6 +6455,10 @@ footer {
 .wsus__top_courses .wsus__single_courses_img ul li a img {
     transform: translate(0) !important;
     margin-top: 12px;
+    -webkit-transform: translate(0) !important;
+    -moz-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+    -o-transform: translate(0) !important;
 }
 
 .top_courses_slider .wsus__single_courses {
@@ -7768,6 +7826,10 @@ footer {
     border-radius: 0 !important;
     padding: 7px 25px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__courses_details_area .nav li button:hover,
@@ -8002,7 +8064,7 @@ footer {
 
 
 .wsus__courses_sidebar_instructor {
-    padding-top: 40px;
+    padding-top: 30px;
     margin-top: 35px;
     position: relative;
 }
@@ -8176,7 +8238,7 @@ footer {
 
 .wsus__courses_curriculum .accordion-button:not(.collapsed)::after {
     background-image: url(../images/minus_icon_black.png);
-    border-color: 1px solid rgba(30, 30, 47, 0.12);
+    border-color: rgba(30, 30, 47, 0.12);
 }
 
 .wsus__courses_curriculum .accordion-item:last-child {
@@ -8269,6 +8331,10 @@ footer {
     border: 1px solid rgba(30, 30, 47, 0.14);
     color: var(--paraColor);
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__courses_instructor_text .link li a:hover {
@@ -8687,6 +8753,10 @@ footer {
     border-radius: 0 !important;
     padding: 6px 25px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .instructor_det_tabs li button.active,
@@ -9079,6 +9149,10 @@ footer {
     border: 1px solid rgba(30, 30, 47, 0.14);
     padding: 3px 13px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__blog_det_tags_share .tags li a:hover {
@@ -9097,6 +9171,10 @@ footer {
     border: 1px solid rgba(30, 30, 47, 0.14);
     border-radius: 50%;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__blog_det_tags_share .share li a:hover {
@@ -9213,6 +9291,10 @@ footer {
 .wsus__blog_single_comment .text h6 a {
     color: var(--colorBlack);
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__blog_single_comment .text h6 a:hover {
@@ -9855,7 +9937,7 @@ footer {
     position: absolute;
     top: 40px;
     left: 40px;
-    overflow-x: 1;
+    z-index: 1;
 }
 
 .wsus__sign_form_area {
@@ -9950,6 +10032,10 @@ footer {
     font-weight: 500;
     text-decoration-line: underline;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__login_form_input label a:hover {
@@ -10896,6 +10982,10 @@ footer {
     border: 1px solid rgba(30, 30, 47, 0.14);
     padding: 1px 8px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .forum_category_header_left ul li a:hover {
@@ -12059,7 +12149,7 @@ footer {
     background: var(--colorLightBg) !important;
 }
 
-.wsus__course_sidebar .accordion-item button p {
+.wsus__course_sidebar .accordion-item button b {
     color: var(--colorBlack);
     font-size: 15px;
     font-weight: 400;
@@ -12673,13 +12763,18 @@ footer {
 
 
 /* dashboard review start */
-.wsus__dash_reviews_searchbox .selector_1 .nice-select {
+.wsus__dash_reviews_searchbox .selector_1 {
+    width: 270px;
+}
+
+.wsus__dash_reviews_searchbox .selector_1 .nice-select,
+.wsus__dash_reviews_searchbox .selector .nice-select {
+    width: 100% !important;
     border-radius: 0px;
-    border: 1px solid var(--borderColor);
-    height: 46px;
-    line-height: 42px;
-    width: 270px !important;
-    padding-left: 15px;
+}
+
+.wsus__dash_reviews_searchbox .selector {
+    width: 200px;
 }
 
 .wsus__dash_reviews {
@@ -12773,7 +12868,6 @@ footer {
 .wsus__dash_order_table .icon {
     min-width: 120px;
     width: 14%;
-    /* text-align: center; */
 }
 
 .wsus__dash_order_table .date {
@@ -12826,6 +12920,7 @@ footer {
 /* dashboard invoice start */
 .wsus__invoice_top {
     padding: 40px 60px 0px 60px;
+    overflow: hidden;
 }
 
 .wsus__invoice_logo {
