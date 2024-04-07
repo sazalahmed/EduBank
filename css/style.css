@@ -2554,6 +2554,7 @@ header .wsus__header_right li .nice-select .list {
 .wsus__single_blog_img {
     position: relative;
     overflow: hidden;
+    height: 245px;
 }
 
 .wsus__single_blog_img img {
@@ -2826,6 +2827,10 @@ footer {
 .wsus__footer_info .call_mail .icon img {
     width: 20px !important;
     height: 20px !important;
+}
+
+.wsus__footer_info .call_mail .text {
+    width: 80%;
 }
 
 .wsus__footer_info .call_mail .text h3 {
