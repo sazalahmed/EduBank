@@ -306,6 +306,7 @@ $(function () {
         ]
     });
 
+
     // team slider
     $('.team_slider_large').slick({
         slidesToShow: 1,
@@ -315,6 +316,33 @@ $(function () {
         arrows: false,
         dots: false,
         vertical: true,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    vertical: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    vertical: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    vertical: false,
+                }
+            }
+        ]
     });
 
     $('.team_slider_small').slick({
@@ -354,9 +382,21 @@ $(function () {
 
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 1600,
                 settings: {
                     slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
                 }
             },
             {
@@ -419,6 +459,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]
@@ -484,6 +525,28 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
+
     });
 
 
@@ -500,27 +563,47 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]

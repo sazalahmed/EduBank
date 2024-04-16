@@ -137,7 +137,7 @@ button {
 
 .common_btn:hover,
 .common_btn_2:hover {
-    color: #fff;
+    color: var(--colorWhite);
 }
 
 .common_btn:hover:after,
@@ -4684,7 +4684,6 @@ footer {
     background: var(--colorWhite);
     padding: 15px 20px 15px 70px;
     border-radius: 6px;
-    background: #FFF;
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
     animation: banner_image_animi 1s ease infinite alternate;
     -webkit-animation: banner_image_animi 1s ease infinite alternate;
@@ -4797,7 +4796,7 @@ footer {
     right: -35px;
     width: 150px;
     height: 150px;
-    background: #FFF;
+    background: var(--colorWhite);
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
     border-radius: 50%;
     padding: 5px;
@@ -5033,7 +5032,7 @@ footer {
     right: 55px;
     width: 150px;
     height: 150px;
-    background: #FFF;
+    background: var(--colorWhite);
     box-shadow: 0px 2px 10px 0px rgba(30, 30, 47, 0.10), 0px 4px 3px 0px rgba(30, 30, 47, 0.12);
     border-radius: 50%;
     padding: 5px;
@@ -5185,6 +5184,10 @@ footer {
 /* courses 3 start */
 .wsus__courses_3 .wsus__section_heading h5 {
     background: none;
+}
+
+.wsus__filter_area {
+    text-align: center;
 }
 
 .wsus__courses_3 .wsus__filter_area ul {
@@ -5550,7 +5553,7 @@ footer {
 
 .wsus__team_slider_img {
     padding-left: 80px;
-    height: 475px;
+    height: 465px;
     margin-top: 20px;
 }
 
@@ -6162,6 +6165,10 @@ footer {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+}
+
+.wsus__footer_3_subscribe ul li .text {
+    width: 85%;
 }
 
 .wsus__footer_3_subscribe ul li .text h4 {
@@ -6782,6 +6789,10 @@ footer {
     margin-top: 75px;
 }
 
+.wsus__video_4_img img {
+    height: 100% !important;
+}
+
 .wsus__video_4_img a {
     position: absolute;
     width: 240px;
@@ -7111,6 +7122,12 @@ footer {
 
 
 /* footer 4 start */
+.footer_4 {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
 .footer_4 .wsus__footer_3_logo_area ul li a {
     border: 1.5px solid rgba(255, 255, 255, 0.20);
     background: transparent;

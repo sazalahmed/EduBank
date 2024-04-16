@@ -24,7 +24,7 @@
     border: 1px solid var(--colorPrimary) !important;
     position: fixed;
     border-radius: 100px;
-    z-index: 102;
+    z-index: 9999;
     pointer-events: none;
 }
 
