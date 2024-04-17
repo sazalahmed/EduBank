@@ -539,7 +539,6 @@ button {
     GLOBAL CSS END
 ============================*/
 
-
 /*============================
     HOME PAGE 01 START
 ============================*/
@@ -1134,8 +1133,11 @@ header .wsus__header_right li .nice-select .list {
 
 /* mobile menu end */
 
-/* menu end */
+.mobile_menu_area {
+    display: none;
+}
 
+/* menu end */
 
 /* banner start */
 .wsus__banner {
@@ -1378,7 +1380,6 @@ header .wsus__header_right li .nice-select .list {
 
 /* about us end */
 
-
 /* brand start */
 .wsus__brand_slider_area {
     overflow: hidden;
@@ -1418,7 +1419,6 @@ header .wsus__header_right li .nice-select .list {
 }
 
 /* brand end */
-
 
 /* category start */
 .wsus__category {
@@ -1516,7 +1516,6 @@ header .wsus__header_right li .nice-select .list {
 }
 
 /* category end */
-
 
 /* call to action start */
 .wsus__call_to_action {
@@ -1922,7 +1921,6 @@ header .wsus__header_right li .nice-select .list {
 
 /* courses end */
 
-
 /* hotline start */
 .wsus__hotline {
     background-position: center !important;
@@ -2014,7 +2012,6 @@ header .wsus__header_right li .nice-select .list {
 
 /* hotline end */
 
-
 /* become instructor start */
 .wsus__become_instructor {
     position: relative;
@@ -2094,7 +2091,6 @@ header .wsus__header_right li .nice-select .list {
 }
 
 /* become instructor end */
-
 
 /* instructor start */
 .wsus__instructor {
@@ -2287,7 +2283,6 @@ header .wsus__header_right li .nice-select .list {
 
 /* instructor end */
 
-
 /* counter start */
 .wsus__counter_bg {
     background-position: center !important;
@@ -2322,9 +2317,7 @@ header .wsus__header_right li .nice-select .list {
 
 /* counter end */
 
-
 /* faq start */
-
 .wsus__faq_img {
     position: relative;
 }
@@ -2451,7 +2444,6 @@ header .wsus__header_right li .nice-select .list {
 
 /* faq end */
 
-
 /* testimonial start */
 .wsus__testimonial {
     position: relative;
@@ -2544,7 +2536,6 @@ header .wsus__header_right li .nice-select .list {
 }
 
 /* testimonial end */
-
 
 /* blog start */
 .wsus__single_blog {
@@ -2684,7 +2675,6 @@ header .wsus__header_right li .nice-select .list {
 
 /* blog end */
 
-
 /* subscriprion start */
 .wsus__subscription {
     background: #282870;
@@ -2712,7 +2702,6 @@ header .wsus__header_right li .nice-select .list {
 }
 
 .wsus__subscription_text h2 {
-
     color: var(--colorWhite);
     font-size: 30px;
     font-weight: 600;
@@ -2737,7 +2726,6 @@ header .wsus__header_right li .nice-select .list {
 }
 
 /* subscriprion end */
-
 
 /* footer start */
 footer {
@@ -3016,11 +3004,9 @@ footer {
 }
 
 /* footer end */
-
 /*============================
     HOME PAGE 01 END
 ============================*/
-
 
 /*============================
     HOME PAGE 02 START
@@ -3031,7 +3017,6 @@ footer {
 }
 
 /* header end */
-
 
 /* menu 2 start */
 .main_menu_2 {
@@ -3309,7 +3294,6 @@ footer {
 
 /* banner 2 end */
 
-
 /* headline slider start */
 .wsus__headline_slider {
     position: relative;
@@ -3364,7 +3348,6 @@ footer {
 }
 
 /* headline slider end */
-
 
 /* category 2 start */
 .wsus__category_item_2 {
@@ -3427,7 +3410,6 @@ footer {
 }
 
 /* category 2 end */
-
 
 /* courses 2 start */
 .wsus__courses_2 {
@@ -3598,7 +3580,6 @@ footer {
 
 /* courses 2 end */
 
-
 /* features start */
 .wsus__features_item {
     background: var(--colorWhite);
@@ -3658,7 +3639,6 @@ footer {
 }
 
 /* features end */
-
 
 /* about 2 start */
 .wsus__about_2 {
@@ -3823,7 +3803,6 @@ footer {
 
 /* about 2 end */
 
-
 /* related course start */
 .wsus__related_courses {
     background: var(--colorLightBg);
@@ -3843,7 +3822,6 @@ footer {
 }
 
 /* related course end */
-
 
 /* event start */
 .wsus__event {
@@ -3973,7 +3951,6 @@ footer {
 }
 
 /* event end */
-
 
 /* instructor 2 start */
 .wsus__single_instructor_2 {
@@ -4123,7 +4100,6 @@ footer {
 
 /* instructor 2 end */
 
-
 /* testimonial 2 start */
 .wsus__testimonial_2_heading {
     padding-left: 45px;
@@ -4201,7 +4177,6 @@ footer {
 }
 
 /* testimonial 2 end */
-
 
 /* blog 2 start */
 .wsus__blog_2 .container {
@@ -4330,7 +4305,6 @@ footer {
 }
 
 /* blog 2 end */
-
 .footer_2 {
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -4349,7 +4323,6 @@ footer {
 /*============================
     HOME PAGE 02 END
 ============================*/
-
 
 /*============================
     HOME PAGE 03 START
@@ -4419,7 +4392,6 @@ footer {
     display: inline-block;
     width: 18px;
     cursor: pointer;
-
 }
 
 .main_menu_3 .right_menu ul li .menu_signin,
@@ -4566,7 +4538,6 @@ footer {
 }
 
 /* menu  3 end */
-
 
 /* banner 3 star */
 .wsus__banner_3 {
@@ -4848,7 +4819,6 @@ footer {
 
 /* banner 3 end */
 
-
 /* features 3 start */
 .wsus__features_3 .wsus__features_item {
     border-radius: 10px;
@@ -4948,7 +4918,6 @@ footer {
 }
 
 /* features 3 end */
-
 
 /* about us 3 start */
 .wsus__about_3 {
@@ -5179,7 +5148,6 @@ footer {
 }
 
 /* about us 3 end */
-
 
 /* courses 3 start */
 .wsus__courses_3 .wsus__section_heading h5 {
@@ -5482,7 +5450,6 @@ footer {
 
 /* courses 3 end */
 
-
 /* offer start */
 .wsus__offer {
     background-position: center !important;
@@ -5526,7 +5493,6 @@ footer {
 }
 
 /* offer end */
-
 
 /* team start */
 .wsus__team_heading_area_btn {
@@ -5681,7 +5647,6 @@ footer {
 }
 
 /* team end */
-
 
 /* video start */
 .wsus__video {
@@ -5899,7 +5864,6 @@ footer {
 }
 
 /* testimonial 2 end */
-
 
 /* blog 3 start */
 .wsus__blog_3_heading_area_btn {
@@ -6202,7 +6166,6 @@ footer {
     HOME PAGE 03 END
 ============================*/
 
-
 /*============================
     HOME PAGE 04 START
 ============================*/
@@ -6351,7 +6314,6 @@ footer {
 
 /* banner 4 end */
 
-
 /* category 4 start */
 .wsus__category_4,
 .wsus__category_4 .container {
@@ -6452,7 +6414,6 @@ footer {
 
 /* category 4 end */
 
-
 /* top courses start */
 .wsus__top_courses {
     position: relative;
@@ -6531,7 +6492,6 @@ footer {
 }
 
 /* top courses end */
-
 
 /* call to action 4 start */
 .wsus__call_to_action_4 {
@@ -6612,7 +6572,6 @@ footer {
 
 /* call to action 4 end */
 
-
 /* global courses start */
 .wsus__global_courses .wsus__filter_area ul {
     border-bottom: 0;
@@ -6640,7 +6599,6 @@ footer {
 }
 
 /* global courses end */
-
 
 /* quality courses start */
 .wsus__quality_courses {
@@ -6725,7 +6683,6 @@ footer {
 
 /* quality courses end */
 
-
 /* instructor 4 start */
 .wsus__instructor_4 .wsus__single_instructor_img {
     height: 475px;
@@ -6777,7 +6734,6 @@ footer {
 }
 
 /* instructor 4 end */
-
 
 /* video 4 start */
 .wsus__video_4 {
@@ -6850,7 +6806,6 @@ footer {
 }
 
 /* video 4 end */
-
 
 /* testimonial 4 start */
 .wsus__testimonial_4 {
@@ -7124,7 +7079,6 @@ footer {
 
 /* blog 4 end */
 
-
 /* footer 4 start */
 .footer_4 {
     background-position: center !important;
@@ -7254,7 +7208,6 @@ footer {
 /*============================
     HOME PAGE 04 END
 ============================*/
-
 
 /*===============================
     HOME PAGE 05 DARK START
@@ -7514,7 +7467,6 @@ footer {
     HOME PAGE 05 DARK END
 ===============================*/
 
-
 /*============================
     ABOUT US START
 ============================*/
@@ -7569,7 +7521,6 @@ footer {
 /*============================
     ABOUT US END
 ============================*/
-
 
 /*============================
     COURSES PAGE START
@@ -7778,7 +7729,6 @@ footer {
 /*============================
     COURSES PAGE END
 ============================*/
-
 
 /*============================
     COURSES DETAILS START
@@ -8090,7 +8040,6 @@ footer {
     position: relative;
     top: -1px;
 }
-
 
 .wsus__courses_sidebar_instructor {
     padding-top: 30px;
@@ -8507,7 +8456,6 @@ footer {
     COURSES DETAILS END
 ============================*/
 
-
 /*============================
     INSTRUCTOR FINDER START
 ============================*/
@@ -8691,7 +8639,6 @@ footer {
 /*============================
     INSTRUCTOR FINDER END
 ============================*/
-
 
 /*============================
     INSTRUCTOR DETAILS START
@@ -9033,7 +8980,6 @@ footer {
     INSTRUCTOR DETAILS END
 ============================*/
 
-
 /*============================
     BLOG PAGE END
 ============================*/
@@ -9045,7 +8991,6 @@ footer {
 /*============================
     BLOG PAGE END
 ============================*/
-
 
 /*============================
     BLOG DETAILS START
@@ -9571,7 +9516,6 @@ footer {
     BLOG DETAILS END
 ============================*/
 
-
 /*============================
     PRODUCT PAGE START
 ============================*/
@@ -9586,7 +9530,6 @@ footer {
 /*============================
     PRODUCT PAGE END
 ============================*/
-
 
 /*============================
     PRODUCT DETAILS SDTART
@@ -9851,7 +9794,6 @@ footer {
     PRODUCT DETAILS END
 ============================*/
 
-
 /*============================
     CONTACT US START
 ============================*/
@@ -9944,7 +9886,6 @@ footer {
 /*============================
     CONTACT US END
 ============================*/
-
 
 /*============================
     SIGN IN START
@@ -10131,10 +10072,7 @@ footer {
 
 .wsus__sign_form_area .social_login {
     gap: 10px;
-}
-
-.wsus__sign_form_area .social_login li {
-    width: 32.2%;
+    justify-content: center;
 }
 
 .wsus__sign_form_area .social_login li a {
@@ -10143,7 +10081,7 @@ footer {
     color: var(--colorBlack);
     font-size: 15px;
     font-weight: 500;
-    padding: 14px 20px;
+    padding: 14px 40px 12px 40px;
     width: 100%;
     text-align: center;
     flex-wrap: wrap;
@@ -10152,7 +10090,6 @@ footer {
 .wsus__sign_form_area .social_login li a span {
     display: inline-block;
     width: 20px;
-    top: -2px;
     position: relative;
     margin-right: 5px;
 }
@@ -10202,7 +10139,6 @@ footer {
     SIGN IN END
 ============================*/
 
-
 /*============================
     ERROR PAGE START
 ============================*/
@@ -10232,7 +10168,6 @@ footer {
 /*============================
     ERROR PAGE END
 ============================*/
-
 
 /*============================
     FORUM PAGE START
@@ -10650,7 +10585,6 @@ footer {
     FORUM PAGE END
 ============================*/
 
-
 /*===============================
     FORUM CREATE TOPIC START
 ===============================*/
@@ -10778,7 +10712,6 @@ footer {
 /*===============================
     FORUM CREATE TOPIC END
 ===============================*/
-
 
 /*===============================
     FORUM SINGLE TOPIC START
@@ -10984,7 +10917,6 @@ footer {
     FORUM SINGLE TOPIC END
 ===============================*/
 
-
 /*===============================
     FORUM CATEGORY LIST START
 ===============================*/
@@ -11160,7 +11092,6 @@ footer {
 /*===============================
     FORUM CATEGORY LIST END
 ===============================*/
-
 
 /*===============================
     PRICING PLAN START
@@ -11401,7 +11332,6 @@ footer {
 /*===============================
     PRICING PLAN END
 ===============================*/
-
 
 /*===============================
     CART VIEW START
@@ -11646,7 +11576,6 @@ footer {
     CART VIEW END
 ===============================*/
 
-
 /*================================
     CHECKOUT START
 ================================*/
@@ -11809,7 +11738,6 @@ footer {
 /*================================
     CHECKOUT END
 ================================*/
-
 
 /*================================
     PAYMENT START
@@ -12016,7 +11944,6 @@ footer {
     PAYMENT END
 ================================*/
 
-
 /*================================
     BLOG LIST VIEW START
 ================================*/
@@ -12092,7 +12019,6 @@ footer {
 /*================================
     BLOG LIST VIEW END
 ================================*/
-
 
 /*================================
     COURSE VIDEO START
@@ -13765,7 +13691,6 @@ footer {
 }
 
 /* dashboard notification end */
-
 
 /* dashboard account linked start */
 .wsus__dashboard_account {

@@ -23,11 +23,9 @@
         right: -45px;
     }
 
-
     /*===========================
         HOME PAGE 01 END
     ===========================*/
-
     .wsus__call_to_action_4 ul li .text {
         padding: 30px;
         width: 55%;
@@ -87,7 +85,6 @@
         HOME PAGE 03 END
     ===========================*/
 
-
     /*===========================
         HOME PAGE 04 START
     ===========================*/
@@ -123,13 +120,7 @@
     /*===========================
         HOME PAGE 04 END
     ===========================*/
-
-
-
-
-
 }
-
 
 @media (min-width: 1400px) and (max-width: 1600px) {
 
@@ -194,7 +185,6 @@
         HOME PAGE 01 END
     ===========================*/
 
-
     /*===========================
         ABOUT PAGE START
     ===========================*/
@@ -224,7 +214,6 @@
     /*===========================
         ABOUT PAGE END
     ===========================*/
-
     .wsus__contact_info {
         padding: 35px;
     }
@@ -254,10 +243,6 @@
 
     .payment_mathod {
         height: 95px;
-    }
-
-    .wsus__sign_form_area .social_login li {
-        width: 31%;
     }
 
     .wsus__sign_form_area form {
@@ -295,11 +280,11 @@
     }
 
     .wsus__banner_features {
-        width: 1195px;
+        width: 1275px;
     }
 
     .wsus__banner_features li .text {
-        width: 70%;
+        width: 74%;
     }
 
     .wsus__banner_features li {
@@ -315,20 +300,8 @@
         width: 400px !important;
     }
 
-    .wsus__single_courses_3 {
-        /* padding: 20px; */
-    }
-
-    .wsus__single_courses_3_img {
-        /* height: 225px; */
-    }
-
     .wsus__offer_text {
         padding-left: 30px;
-    }
-
-    .wsus__offer_text h2 {
-        /* font-size: 38px; */
     }
 
     .wsus__video {
@@ -362,7 +335,6 @@
     /*=============================
         HOME PAGE 3 END
     =============================*/
-
 
     /*=============================
         HOME PAGE 04 START
@@ -402,19 +374,7 @@
     /*=============================
         HOME PAGE 04 END
     =============================*/
-
-
-
-
 }
-
-
-
-
-
-
-
-
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
@@ -436,6 +396,7 @@
 
     .main_menu .right_menu form .search input {
         width: 220px;
+        font-size: 14px;
     }
 
     .main_menu .navbar-nav .nav-item .nav-link {
@@ -505,7 +466,7 @@
     }
 
     .wsus__testimonial_2_img {
-        height: 520px;
+        height: 513px;
     }
 
     .wsus__single_blog_2_img {
@@ -523,7 +484,6 @@
     /*===========================
         HOME PAGE 01 END
     ===========================*/
-
 
     /*===========================
         ABOUT PAGE START
@@ -619,7 +579,6 @@
         ABOUT PAGE END
     ===========================*/
 
-
     /*===========================
         BLOG DETAILS START
     ===========================*/
@@ -638,7 +597,6 @@
 
     .wsus__blog_det_author .text {
         width: 69%;
-        /* padding: 25px; */
     }
 
     .wsus__blog_single_comment .text {
@@ -668,7 +626,6 @@
     /*===========================
         BLOG DETAILS END
     ===========================*/
-
     .cart_list .pro_name {
         padding-left: 10px;
     }
@@ -776,7 +733,6 @@
         FORUM END
     ===========================*/
 
-
     /*=============================
         INSTRUCTOR DETAILS START
     =============================*/
@@ -800,8 +756,6 @@
         INSTRUCTOR DETAILS END
     =============================*/
 
-
-
     /*=============================
         INSTRUCTOR FINDER START
     =============================*/
@@ -816,7 +770,6 @@
     /*=============================
         INSTRUCTOR FINDER END
     =============================*/
-
     .wsus__single_instructor_img {
         height: 460px;
     }
@@ -850,14 +803,9 @@
         PRODUCT DETAILS END
     =============================*/
 
-
     /*=============================
         SIGN IN START
     =============================*/
-    .wsus__sign_form_area .social_login li {
-        width: 31%;
-    }
-
     .wsus__sign_form_area form {
         padding: 30px;
     }
@@ -874,7 +822,6 @@
     /*=============================
         SIGN IN END
     =============================*/
-
     .wsus__testimonial_text {
         padding: 25px;
         height: 520px;
@@ -935,7 +882,6 @@
     }
 
     /* invoice end */
-
     .wsus__subscription_text {
         width: 80%;
     }
@@ -943,7 +889,6 @@
     .wsus__subscription_form {
         padding-left: 100px;
     }
-
 
     /*=============================
         HOME PAGE 2 START
@@ -1062,8 +1007,7 @@
     }
 
     .wsus__banner_features {
-        width: 1080px;
-        /* padding: 12px 12px 0px 10px; */
+        width: 1100px;
     }
 
     .wsus__banner_features li .text {
@@ -1133,14 +1077,12 @@
         HOME PAGE 3 END
     =============================*/
 
-
     /*=============================
         HOME PAGE 04 START
     =============================*/
     .wsus__banner_4_text h1,
     .wsus__banner_4_text h1 span {
         font-size: 64px;
-        /* line-height: initial; */
     }
 
     .wsus__banner_4_text h1::after {
@@ -1161,22 +1103,15 @@
         max-width: 80%;
     }
 
-    .wsus__banner_4_text {
-        /* padding-top: 195px; */
-    }
-
     .wsus__banner_image_4 .text {
         bottom: 0;
     }
 
     .wsus__quality_courses_img {
-        /* left: 0; */
-        /* height: 390px; */
         display: none;
     }
 
     .wsus__quality_courses_slider_area {
-        /* display: none; */
         right: 30px;
     }
 
@@ -1202,10 +1137,6 @@
         padding: 0px 60px;
     }
 
-    .wsus__video_4_text p {
-        /* font-size: 15px; */
-    }
-
     .wsus__video_4_img {
         height: 500px;
     }
@@ -1228,12 +1159,9 @@
 
     .wsus__testimonial_4_img {
         margin-left: 30px;
-        /* width: auto; */
-        /* height: 376px; */
     }
 
     .wsus__testimonial_4_text {
-        /* padding-right: 40px; */
         padding-left: 30px;
     }
 
@@ -1247,11 +1175,6 @@
         right: 30px;
     }
 
-    .wsus__single_blog_4_img {
-        /* width: 200px; */
-        /* height: 290px; */
-    }
-
     .wsus__single_blog_4_text {
         width: 56%;
         padding: 25px;
@@ -1262,14 +1185,7 @@
         padding-right: 10px;
     }
 
-    .wsus__single_blog_4_text ul li {
-        /* font-size: 12px; */
-    }
-
     .wsus__category_4 .container::after {
-        /* width: 50px; */
-        /* height: 50px; */
-        /* top: 55px; */
         left: -10px;
     }
 
@@ -1291,24 +1207,12 @@
         right: 0;
     }
 
-    .wsus__single_courses_text {
-        /* padding: 20px 10px 50px 10px; */
-    }
-
     .blog_4_slider .nextArrow {
         right: 45px;
     }
 
     .blog_4_slider .prevArrow {
         right: 100px;
-    }
-
-    .wsus__top_courses .wsus__single_courses_img {
-        /* height: 150px; */
-    }
-
-    .wsus__single_blog_4_text ul {
-        /* gap: 5px; */
     }
 
     .wsus__footer_4_download ul li a {
@@ -1318,12 +1222,6 @@
 
     .wsus__footer_4_download ul li a span {
         margin-right: 5px;
-        /* width: 12px; */
-    }
-
-    .footer_4 .wsus__footer_instagram ul li a {
-        /* width: 80px; */
-        /* height: 65px; */
     }
 
     .wsus__top_courses .title {
@@ -1334,14 +1232,10 @@
         HOME PAGE 04 END
     =============================*/
 
-
-
-
-
-
+    .footer_2 .wsus__footer_link {
+        padding-left: 0;
+    }
 }
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -1416,8 +1310,6 @@
     }
 
     .wsus__call_to_action_text .img {
-        /* width: 190px; */
-        /* height: 210px; */
         margin-right: 30px;
     }
 
@@ -1434,7 +1326,7 @@
     }
 
     .wsus__single_testimonial_2 {
-        padding: 20px;
+        padding: 20px !important;
         margin: 0;
     }
 
@@ -1516,10 +1408,6 @@
         margin-top: 30px;
     }
 
-    .wsus__footer_copyright_area {
-        margin-top: 45px !important;
-    }
-
     /*===========================
         HOME PAGE 01 END
     ===========================*/
@@ -1597,10 +1485,6 @@
         text-align: center;
     }
 
-    .wsus__about_3_img {
-        /* margin-bottom: 25px; */
-    }
-
     .wsus__single_testimonial {
         padding: 35px;
     }
@@ -1608,7 +1492,6 @@
     /*===========================
         ABOUT PAGE END
     ===========================*/
-
 
     /*===========================
         BLOG DETAILS START
@@ -1669,7 +1552,6 @@
     /*===========================
         BLOG DETAILS END
     ===========================*/
-
     .wsus__blog_list_img {
         height: 285px;
     }
@@ -1708,7 +1590,6 @@
     /*===========================
         COURSES VIDEOS END
     ===========================*/
-
 
     /*===========================
         COURSES DETAILS START
@@ -1756,7 +1637,6 @@
     /*===========================
         COURSES DETAILS END
     ===========================*/
-
     .wsus__error_page .img {
         height: 425px;
     }
@@ -1822,7 +1702,6 @@
         FOREM END
     ==========================*/
 
-
     /*=============================
         INSTRUCTOR DETAILS START
     =============================*/
@@ -1845,7 +1724,6 @@
     /*=============================
         INSTRUCTOR DETAILS END
     =============================*/
-
 
     /*=============================
         INSTRUCTOR FINDER END
@@ -1931,14 +1809,9 @@
         PRODUCT DETAILS END
     =============================*/
 
-
     /*=============================
         SIGN IN START
     =============================*/
-    .wsus__sign_form_area .social_login li {
-        width: 31.5%;
-    }
-
     .wsus__sign_form_area form {
         padding: 35px;
     }
@@ -1956,18 +1829,15 @@
         SIGN IN END
     =============================*/
 
-
     /*=============================
         DASHBOARD END
     =============================*/
-
     /* dasboard overview start */
     .wsus__dashboard_barfiller {
         margin-top: 30px;
     }
 
     /* dasboard overview ennd */
-
     .wsus__dashboard_heading p {
         margin-bottom: 15px;
     }
@@ -2057,8 +1927,6 @@
         padding-left: 50px;
     }
 
-
-
     /*=============================
         HOME PAGE 2 START
     =============================*/
@@ -2075,11 +1943,6 @@
 
     .wsus__banner_text p {
         max-width: 90%;
-    }
-
-    .wsus__banner_image {
-        /* margin-top: 25px; */
-        /* max-width: 490px; */
     }
 
     .wsus__banner_image .text {
@@ -2147,13 +2010,18 @@
     }
 
     .footer_2 .wsus__footer_copyright_area {
-        margin-top: 50px;
+        margin-top: 50px !important;
     }
 
     .wsus__footer_info,
     .wsus__footer_top_logo,
     .wsus__footer_top {
         border: 0;
+        padding: 0;
+    }
+
+    .wsus__footer_top {
+        padding: 50px 0px;
     }
 
     .wsus__single_courses_img {
@@ -2166,10 +2034,6 @@
 
     .wsus__footer_subscribe form {
         width: 50%;
-    }
-
-    .wsus__footer_bottom .row {
-        justify-content: space-around;
     }
 
     /*=============================
@@ -2233,10 +2097,6 @@
         height: 380px;
     }
 
-    .wsus__offer_text h2 {
-        /* font-size: 32px; */
-    }
-
     .wsus__offer_text {
         padding-left: 0;
         padding-bottom: 30px;
@@ -2247,14 +2107,7 @@
         max-width: 100%;
     }
 
-    .wsus__team_heading_area_btn {
-        /* text-align: left; */
-        /* margin-bottom: 40px; */
-    }
-
     .wsus__team_slider_img {
-        /* padding: 20px; */
-        /* height: 454px; */
         padding-right: 55px;
     }
 
@@ -2263,38 +2116,12 @@
         padding-right: 155px;
     }
 
-    .wsus__team_small_img_area {
-        /* display: none; */
-    }
-
     .wsus__video {
         height: 600px;
     }
 
     .wsus__video .text {
         left: 40px;
-    }
-
-    .wsus__video .text p {
-        /* padding: 20px; */
-        /* font-size: 14px; */
-    }
-
-    .wsus__video .play_btn {
-        /* width: 100px; */
-        /* height: 100px; */
-        /* line-height: 100px; */
-        /* top: 10px; */
-        /* left: auto; */
-        /* right: 10px; */
-        /* transform: translate(0); */
-    }
-
-    .wsus__video .play_btn::after {
-        /* width: 80px; */
-        /* height: 80px; */
-        /* top: 10px; */
-        /* left: 10px; */
     }
 
     .wsus__footer_3_logo_area {
@@ -2317,10 +2144,6 @@
         margin-bottom: 0;
     }
 
-    .wsus__team_bg {
-        /* overflow: hidden; */
-    }
-
     .wsus__banner_features li .text h4 {
         font-size: 16px;
     }
@@ -2336,7 +2159,6 @@
     /*=============================
         HOME PAGE 3 END
     =============================*/
-
 
     /*=============================
         HOME PAGE 04 START
@@ -2365,22 +2187,15 @@
         max-width: 100%;
     }
 
-    .wsus__banner_4_text {
-        /* padding-top: 195px; */
-    }
-
     .wsus__banner_image_4 .text {
         bottom: 0;
     }
 
     .wsus__quality_courses_img {
-        /* left: 0; */
-        /* height: 390px; */
         display: none;
     }
 
     .wsus__quality_courses_slider_area {
-        /* display: none; */
         right: 30px;
     }
 
@@ -2406,10 +2221,6 @@
         padding: 0px 30px 30px 30px;
     }
 
-    .wsus__video_4_text p {
-        /* font-size: 15px; */
-    }
-
     .wsus__video_4_img {
         height: 400px;
     }
@@ -2432,8 +2243,6 @@
 
     .wsus__testimonial_4_img {
         margin-left: 30px;
-        /* width: auto; */
-        /* height: 376px; */
     }
 
     .wsus__testimonial_4_text {
@@ -2536,26 +2345,14 @@
     /*=============================
         HOME PAGE 04 END
     =============================*/
+    .mobile_menu_area {
+        display: block;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .wsus__footer_info .call_mail .text {
+        width: 72%;
+    }
 }
-
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
@@ -2575,7 +2372,7 @@
     }
 
     .wsus__banner_2 {
-        padding: 200px 10px 0px 10px;
+        padding: 200px 30px 0px 30px;
         height: auto;
     }
 
@@ -2746,7 +2543,6 @@
         HOME PAGE 01 END
     ===========================*/
 
-
     /*===========================
         ABOUT PAGE START
     ===========================*/
@@ -2818,7 +2614,6 @@
         ABOUT PAGE END
     ===========================*/
 
-
     /*===========================
         BLOG DETAILS START
     ===========================*/
@@ -2833,7 +2628,6 @@
     .wsus__blog_det_tags_share {
         gap: 20px;
     }
-
 
     .wsus__blog_det_author .text {
         width: 68%;
@@ -2863,7 +2657,6 @@
         BLOG DETAILS END
     ===========================*/
 
-
     /*===========================
         BLOG LIST VIEW START
     ===========================*/
@@ -2878,7 +2671,6 @@
     /*===========================
         BLOG LIST VIEW END
     ===========================*/
-
     .cart_list .pro_name {
         padding-left: 20px;
     }
@@ -2941,7 +2733,6 @@
     /*==========================
         COURSES VIDEO END
     ==========================*/
-
 
     /*==========================
         COURSES DETAILS START
@@ -3007,10 +2798,6 @@
     .wsus__faq_img {
         display: none;
     }
-
-
-
-
 
     /*==========================
         FOREM START
@@ -3189,7 +2976,6 @@
         FOREM START
     ==========================*/
 
-
     /*=============================
         INSTRUCTOR DETAILS START
     =============================*/
@@ -3216,7 +3002,6 @@
     /*=============================
         INSTRUCTOR DETAILS END
     =============================*/
-
 
     /*=============================
         INSTRUCTOR FINDER START
@@ -3245,7 +3030,6 @@
     /*=============================
         INSTRUCTOR FINDER END
     =============================*/
-
     .wsus__single_instructor_img {
         height: 435px;
     }
@@ -3263,9 +3047,6 @@
         top: -10px;
         right: -150px;
     }
-
-
-
 
     .wsus__product_details_text {
         margin-top: 20px;
@@ -3305,10 +3086,6 @@
         right: 20px;
     }
 
-    .wsus__sign_form_area .social_login li {
-        width: 31.2%;
-    }
-
     .wsus__sign_form_area .new_user {
         margin-bottom: 0;
     }
@@ -3316,7 +3093,6 @@
     /*=============================
         SIGN IN END
     =============================*/
-
 
     /*=============================
         TESTIMONIAL START
@@ -3342,7 +3118,6 @@
     /*=============================
         TESTIMONIAL END
     =============================*/
-
 
     /*=============================
         DASHBOARD START
@@ -3370,7 +3145,6 @@
     }
 
     /* dasboard overview ennd */
-
     .wsus__dashboard_heading p {
         margin-bottom: 15px;
     }
@@ -3481,7 +3255,6 @@
     }
 
     /* invoice end */
-
     .wsus__dash_course_searchbox .input input {
         width: 100%;
     }
@@ -3502,7 +3275,6 @@
     /*=============================
         DASHBOARD END
     =============================*/
-
     .wsus__subscription_text {
         width: 100%;
     }
@@ -3632,7 +3404,6 @@
     /*=============================
         HOME PAGE 2 END
     =============================*/
-
 
     /*=============================
         HOME PAGE 3 START
@@ -3786,7 +3557,6 @@
         HOME PAGE 3 END
     =============================*/
 
-
     /*=============================
         HOME PAGE 04 START
     =============================*/
@@ -3823,13 +3593,10 @@
     }
 
     .wsus__quality_courses_img {
-        /* left: 0; */
-        /* height: 390px; */
         display: none;
     }
 
     .wsus__quality_courses_slider_area {
-        /* display: none; */
         max-width: 350px;
         right: 25px;
     }
@@ -3954,19 +3721,10 @@
         HOME PAGE 04 END
     =============================*/
 
-
-
-
-
-
-
-
-
-
+    .mobile_menu_area {
+        display: block;
+    }
 }
-
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -3986,7 +3744,7 @@
     }
 
     .wsus__banner_2 {
-        padding: 200px 10px 0px 10px;
+        padding: 200px 25px 0px 25px;
         height: auto;
     }
 
@@ -4060,7 +3818,7 @@
         font-size: 28px;
         line-height: initial;
         max-width: 100%;
-        margin: 25px 0px;
+        margin-bottom: 20px;
     }
 
     .wsus__call_to_action_text .img {
@@ -4076,8 +3834,7 @@
     }
 
     .wsus__testimonial_2_img {
-        height: auto;
-        margin-bottom: 35px;
+        display: none;
     }
 
     .wsus__testimonial_2_heading {
@@ -4169,7 +3926,6 @@
         HOME PAGE 01 END
     ===========================*/
 
-
     /*===========================
         ABOUT PAGE START
     ===========================*/
@@ -4247,7 +4003,6 @@
         ABOUT PAGE END
     ===========================*/
 
-
     /*===========================
         BLOG DETAILS START
     ===========================*/
@@ -4315,7 +4070,6 @@
         BLOG DETAILS END
     ===========================*/
 
-
     /*===========================
         BLOG LIST VIEW START
     ===========================*/
@@ -4330,7 +4084,6 @@
     /*===========================
         BLOG LIST VIEW END
     ===========================*/
-
     .cart_list .pro_name {
         padding-left: 20px;
     }
@@ -4343,9 +4096,6 @@
     .order_summary {
         margin-top: 20px;
     }
-
-
-
 
     .wsus__contact_form_img {
         margin-right: 0;
@@ -4406,7 +4156,6 @@
     /*==========================
         COURSES VIDEO END
     ==========================*/
-
 
     /*==========================
         COURSES DETAILS START
@@ -4478,7 +4227,6 @@
     /*==========================
         COURSES DETAILS END
     ==========================*/
-
     .wsus__sidebar {
         margin-top: 25px;
     }
@@ -4559,18 +4307,6 @@
         justify-content: start;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     .forum_terms_and_rules {
         padding: 30px;
     }
@@ -4584,9 +4320,6 @@
         -ms-transform: translate(0);
         -o-transform: translate(0);
     }
-
-
-
 
     .single_topic_sidebar {
         margin-right: 0;
@@ -4700,7 +4433,6 @@
         FOREM END
     ==========================*/
 
-
     /*=============================
         INSTRUCTOR DETAILS START
     =============================*/
@@ -4751,7 +4483,6 @@
         INSTRUCTOR DETAILS END
     =============================*/
 
-
     /*=============================
         INSTRUCTOR FINDER START
     =============================*/
@@ -4785,7 +4516,6 @@
     /*=============================
         INSTRUCTOR FINDER END
     =============================*/
-
     .wsus__single_instructor_img {
         height: 665px;
     }
@@ -4805,7 +4535,6 @@
     .wsus__single_pricing {
         box-shadow: 0px 4px 3px 0px rgba(30, 30, 47, 0.12), 0px 2px 10px 0px rgba(30, 30, 47, 0.10);
     }
-
 
     /*=============================
         PRODUCT DETAILS START
@@ -4846,7 +4575,6 @@
         PRODUCT DETAILS END
     =============================*/
 
-
     /*=============================
         SIGN IN START
     =============================*/
@@ -4871,14 +4599,9 @@
         right: 20px;
     }
 
-    .wsus__sign_form_area .social_login li {
-        width: 31.2%;
-    }
-
     /*=============================
         SIGN IN END
     =============================*/
-
 
     /*=============================
         TESTIMONIAL START
@@ -4906,7 +4629,6 @@
     /*=============================
         TESTIMONIAL END
     =============================*/
-
 
     /*=============================
         DASHBOARD START
@@ -4946,7 +4668,6 @@
     }
 
     /* dasboard suppoer end */
-
     .wsus__dashboard_searchbox {
         margin: 20px 20px 0px 20px;
     }
@@ -5055,7 +4776,6 @@
     }
 
     /* invoice end */
-
     .wsus__dash_course_searchbox .input input {
         width: 100%;
     }
@@ -5076,7 +4796,6 @@
     /*=============================
         DASHBOARD END
     =============================*/
-
     .wsus__subscription_text {
         width: 100%;
     }
@@ -5213,7 +4932,6 @@
     /*=============================
         HOME PAGE 2 END
     =============================*/
-
 
     /*=============================
         HOME PAGE 3 START
@@ -5379,7 +5097,6 @@
         HOME PAGE 3 END
     =============================*/
 
-
     /*=============================
         HOME PAGE 04 START
     =============================*/
@@ -5417,13 +5134,10 @@
     }
 
     .wsus__quality_courses_img {
-        /* left: 0; */
-        /* height: 590px; */
         display: none;
     }
 
     .wsus__quality_courses_slider_area {
-        /* display: none; */
         position: initial;
         transform: translate(0);
         margin-top: 25px;
@@ -5539,13 +5253,10 @@
     /*=============================
         HOME PAGE 04 END
     =============================*/
-
-
-
+    .mobile_menu_area {
+        display: block;
+    }
 }
-
-
-
 
 @media (max-width: 575.99px) {
 
@@ -5637,7 +5348,7 @@
         font-size: 26px;
         line-height: initial;
         max-width: 100%;
-        margin: 25px 0px;
+        margin-bottom: 20px;
     }
 
     .wsus__call_to_action_text .img {
@@ -5653,8 +5364,7 @@
     }
 
     .wsus__testimonial_2_img {
-        height: auto;
-        margin-bottom: 35px;
+        display: none;
     }
 
     .wsus__testimonial_2_heading {
@@ -5662,7 +5372,7 @@
     }
 
     .wsus__single_testimonial_2 {
-        padding: 10px;
+        padding: 10px !important;
         margin: 0;
     }
 
@@ -5737,7 +5447,6 @@
         HOME PAGE 01 END
     ===========================*/
 
-
     /*===========================
         ABOUT PAGE START
     ===========================*/
@@ -5811,7 +5520,7 @@
     }
 
     .wsus__single_testimonial {
-        padding: 25px;
+        padding: 20px;
     }
 
     .wsus__single_testimonial::after {
@@ -5828,7 +5537,6 @@
     /*===========================
         ABOUT PAGE END
     ===========================*/
-
 
     /*===========================
         BLOG DETAILS START
@@ -5905,7 +5613,6 @@
         BLOG DETAILS END
     ===========================*/
 
-
     /*===========================
         BLOG LIST VIEW START
     ===========================*/
@@ -5931,7 +5638,6 @@
     /*===========================
         BLOG LIST VIEW END
     ===========================*/
-
     .cart_list .pro_name {
         padding-left: 20px;
     }
@@ -5948,10 +5654,6 @@
     .order_summary {
         margin-top: 20px;
     }
-
-
-
-
 
     .wsus__contact_form_img {
         margin-right: 0;
@@ -6017,7 +5719,6 @@
     /*==========================
         COURSES VIDEO END
     ==========================*/
-
 
     /*==========================
         COURSES DETAILS START
@@ -6098,7 +5799,6 @@
     /*==========================
         COURSES DETAILS END
     ==========================*/
-
     .wsus__page_courses_header {
         justify-content: center;
         gap: 10px;
@@ -6342,7 +6042,6 @@
         FOREM END
     ==========================*/
 
-
     /*=============================
         INSTRUCTOR DETAILS START
     =============================*/
@@ -6426,7 +6125,6 @@
         INSTRUCTOR DETAILS END
     =============================*/
 
-
     /*=============================
         INSTRUCTOR FINDER START
     =============================*/
@@ -6457,11 +6155,9 @@
         INSTRUCTOR FINDER END
     =============================*/
 
-
     /*=============================
         INSTRUCTOR PAGE START
     =============================*/
-
     .wsus__single_instructor_img {
         height: auto;
     }
@@ -6535,7 +6231,6 @@
         PRODUCT DETAILS END
     =============================*/
 
-
     /*=============================
         SIGN IN START
     =============================*/
@@ -6572,7 +6267,6 @@
         SIGN IN END
     =============================*/
 
-
     /*=============================
         TESTIMONIAL START
     =============================*/
@@ -6600,7 +6294,6 @@
     /*=============================
         TESTIMONIAL END
     =============================*/
-
     .wsus__dash_earning {
         margin-top: 20px;
     }
@@ -6632,7 +6325,6 @@
 
     /* dasboard overview end */
 
-
     /* dasboard suppoer start */
     .wsus__dashboard_heading p {
         margin-bottom: 15px;
@@ -6648,7 +6340,6 @@
     }
 
     /* dasboard suppoer end */
-
     .wsus__dashboard_searchbox button {
         margin-left: 0;
         margin-top: 10px;
@@ -6776,7 +6467,6 @@
     }
 
     /* invoice end */
-
     .wsus__dash_course_searchbox .input input {
         width: 100%;
     }
@@ -6797,7 +6487,6 @@
     /*=============================
         DASHBOARD END
     =============================*/
-
     .wsus__subscription_text {
         width: 100%;
     }
@@ -6943,7 +6632,6 @@
     /*=============================
         HOME PAGE 2 END
     =============================*/
-
 
     /*=============================
         HOME PAGE 3 START
@@ -7125,7 +6813,6 @@
         HOME PAGE 3 END
     =============================*/
 
-
     /*=============================
         HOME PAGE 04 START
     =============================*/
@@ -7187,7 +6874,6 @@
     }
 
     .wsus__quality_courses_slider_area {
-        /* display: none; */
         position: initial;
         transform: translate(0);
         margin-top: 25px;
@@ -7302,11 +6988,7 @@
     /*=============================
         HOME PAGE 04 END
     =============================*/
-
-
-
-
-
-
-
+    .mobile_menu_area {
+        display: block;
+    }
 }

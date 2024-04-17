@@ -16,9 +16,7 @@ $(function () {
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 1) {
-
             if ($('.main_menu').offset() != undefined) {
-                // check if menu_if class is already added
                 if (!$('.main_menu').hasClass("menu_fix")) {
                     $('.main_menu').addClass("menu_fix");
                 }
@@ -267,6 +265,15 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -560,7 +567,6 @@ $(function () {
                 }
             }
         ]
-
     });
 
 
@@ -767,4 +773,3 @@ $(function () {
     new WOW().init();
 
 });
-
