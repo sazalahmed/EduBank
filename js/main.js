@@ -4,18 +4,32 @@ $(function () {
 
 
     // Menu fix js
-    if ($('.main_menu').offset() != undefined) {
-        var navoff = $('.main_menu').offset().top;
-        $(window).on("scroll", function () {
-            var scrolling = $(this).scrollTop();
+    if ($(window).scrollTop() > 1) {
+        if ($('.main_menu').offset() != undefined) {
+            $('.main_menu').addClass('menu_fix');
+        }
+    } else {
+        if ($('.main_menu').offset() != undefined) {
+            $('.main_menu').removeClass('menu_fix');
+        }
+    };
 
-            if (scrolling > navoff) {
-                $('.main_menu').addClass('menu_fix');
-            } else {
-                $('.main_menu').removeClass('menu_fix');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1) {
+
+            if ($('.main_menu').offset() != undefined) {
+                // check if menu_if class is already added
+                if (!$('.main_menu').hasClass("menu_fix")) {
+                    $('.main_menu').addClass("menu_fix");
+                }
             }
-        });
-    }
+        }
+        else {
+            if ($('.main_menu').offset() != undefined) {
+                $('.main_menu').removeClass("menu_fix");
+            }
+        }
+    });
 
 
     // Marquee animation

@@ -6467,6 +6467,10 @@ footer {
     display: block;
 }
 
+.home_4 .wsus__global_courses .wsus__single_courses_text .wishlist {
+    padding: 8px 10px 12px 10px;
+}
+
 .wsus__top_courses .wsus__single_courses_img ul li a img {
     transform: translate(0) !important;
     margin-top: 12px;

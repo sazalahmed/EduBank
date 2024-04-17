@@ -112,6 +112,14 @@
         left: -180px;
     }
 
+    .blog_4_slider .nextArrow {
+        right: 142px;
+    }
+
+    .blog_4_slider .prevArrow {
+        right: 198px;
+    }
+
     /*===========================
         HOME PAGE 04 END
     ===========================*/
@@ -381,6 +389,14 @@
 
     .wsus__single_blog_4_text {
         width: 61%;
+    }
+
+    .blog_4_slider .nextArrow {
+        right: 42px;
+    }
+
+    .blog_4_slider .prevArrow {
+        right: 98px;
     }
 
     /*=============================
@@ -1280,11 +1296,11 @@
     }
 
     .blog_4_slider .nextArrow {
-        right: 12px;
+        right: 45px;
     }
 
     .blog_4_slider .prevArrow {
-        right: 62px;
+        right: 100px;
     }
 
     .wsus__top_courses .wsus__single_courses_img {
@@ -2483,11 +2499,11 @@
     }
 
     .blog_4_slider .nextArrow {
-        right: 12px;
+        right: 30px;
     }
 
     .blog_4_slider .prevArrow {
-        right: 62px;
+        right: 85px;
     }
 
     .wsus__top_courses .wsus__single_courses_img {
@@ -3927,11 +3943,11 @@
     }
 
     .blog_4_slider .nextArrow {
-        right: 12px;
+        right: 40px;
     }
 
     .blog_4_slider .prevArrow {
-        right: 62px;
+        right: 95px;
     }
 
     /*=============================
