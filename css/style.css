@@ -2085,7 +2085,7 @@ header .wsus__header_right li .nice-select .list {
     width: 80px;
     height: 80px;
     top: 50px;
-    right: -60px;
+    right: -110px;
     animation: banner_animi_1 linear 3s infinite alternate;
     -webkit-animation: banner_animi_1 linear 3s infinite alternate;
 }
@@ -4345,7 +4345,7 @@ footer {
 }
 
 .header_3 {
-    padding: 0px 155px;
+    padding: 0px 160px;
 }
 
 /* menu  3 start */
@@ -8223,6 +8223,10 @@ footer {
     border-bottom: 1px solid var(--borderColor) !important;
 }
 
+.wsus__courses_instructor_img {
+    height: 320px;
+}
+
 .wsus__courses_instructor_text h4 {
     font-size: 20px;
     font-weight: 600;
@@ -9648,6 +9652,7 @@ footer {
     padding-left: 19px;
     font-weight: 600;
     color: var(--colorBlack);
+    border: none;
 }
 
 .wsus__product_details_text .qnty input::placeholder {

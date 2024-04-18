@@ -120,6 +120,14 @@
     /*===========================
         HOME PAGE 04 END
     ===========================*/
+    .wsus__banner {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 66px;
+    }
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
@@ -257,7 +265,7 @@
         HOME PAGE 3 start
     =============================*/
     .header_3 {
-        padding: 0px 80px;
+        padding: 0px 50px;
     }
 
     .main_menu_3 {
@@ -270,30 +278,31 @@
     }
 
     .wsus__banner_3_text h1 {
-        font-size: 68px;
+        font-size: 58px;
         padding-right: 0;
         line-height: initial;
     }
 
     .wsus__banner_3_img .img {
-        height: 410px;
+        height: 430px;
     }
 
     .wsus__banner_features {
-        width: 1275px;
+        width: 1080px;
+        gap: 10px;
     }
 
     .wsus__banner_features li .text {
-        width: 74%;
+        width: 68%;
     }
 
     .wsus__banner_features li {
-        width: 32.4%;
-        padding: 12px;
+        width: 32.5%;
+        padding: 10px;
     }
 
     .wsus__banner_3_img .text {
-        bottom: -35px;
+        bottom: 20px;
     }
 
     .wsus__about_3_img .about_3_large {
@@ -329,7 +338,7 @@
     }
 
     .wsus__banner_3_text .description {
-        max-width: 95%;
+        max-width: 90%;
     }
 
     /*=============================
@@ -374,6 +383,28 @@
     /*=============================
         HOME PAGE 04 END
     =============================*/
+
+    header .wsus__header_left li a,
+    header .wsus__header_center p,
+    header .wsus__header_center p span,
+    header .wsus__header_center p a,
+    header .wsus__header_right li .nice-select .current {
+        font-size: 12px;
+    }
+
+    .wsus__banner_features li .icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .wsus__banner {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 56px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -894,7 +925,13 @@
         HOME PAGE 2 START
     =============================*/
     .wsus__banner {
-        padding: 89px 20px 90px 40px;
+        padding: 0px 20px 0px 40px;
+        height: 630px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 48px;
+        line-height: initial;
     }
 
     .wsus__banner_text p {
@@ -1007,7 +1044,7 @@
     }
 
     .wsus__banner_features {
-        width: 1100px;
+        width: 1080px;
     }
 
     .wsus__banner_features li .text {
@@ -1234,6 +1271,14 @@
 
     .footer_2 .wsus__footer_link {
         padding-left: 0;
+    }
+
+    .wsus__courses_instructor_img {
+        height: 265px;
+    }
+
+    .wsus__courses_sidebar_video {
+        height: 230px;
     }
 }
 
@@ -1604,7 +1649,7 @@
     }
 
     .wsus__courses_sidebar_video {
-        height: 200px;
+        height: 190px;
     }
 
     .wsus__courses_sidebar {
@@ -1856,7 +1901,7 @@
 
     .wsus__dashboard_profile .text {
         margin-left: 30px;
-        width: 80%;
+        width: 100%;
     }
 
     .wsus__dashboard_notification label {
@@ -1931,7 +1976,7 @@
         HOME PAGE 2 START
     =============================*/
     .wsus__banner {
-        margin: 100px 0px 0px 0px;
+        margin: 100px 20px 0px 20px;
         padding: 90px 20px 90px 40px;
         height: auto;
     }
@@ -2049,6 +2094,7 @@
 
     .wsus__banner_3 {
         padding: 120px 40px 0px 40px;
+        background-position: center right !important;
     }
 
     .wsus__banner_3_text {
@@ -2067,11 +2113,12 @@
     }
 
     .wsus__banner_3_img .img {
-        height: 365px;
+        height: 370px;
     }
 
     .wsus__banner_features {
-        width: 90%;
+        width: 100%;
+        padding: 0 15px;
     }
 
     .wsus__banner_3_img .text {
@@ -2087,10 +2134,15 @@
 
     .wsus__banner_features li {
         width: 32%;
+        gap: 10px;
     }
 
     .wsus__banner_features li .text {
-        width: 61%;
+        width: 67%;
+    }
+
+    .wsus__banner_features li .text p {
+        font-size: 13px;
     }
 
     .wsus__offer_img {
@@ -2351,6 +2403,15 @@
 
     .wsus__footer_info .call_mail .text {
         width: 72%;
+    }
+
+    .footer_4 .wsus__footer_3_logo_area,
+    .footer_4 .wsus__footer_link {
+        margin-bottom: 0px;
+    }
+
+    .wsus__courses_instructor_img {
+        height: 215px;
     }
 }
 
@@ -3190,7 +3251,7 @@
 
     .wsus__dashboard_profile .text {
         margin-left: 30px;
-        width: 72%;
+        width: 100%;
     }
 
     .wsus__dashboard_notification label {
@@ -3413,7 +3474,7 @@
     }
 
     .wsus__banner_3 {
-        padding: 120px 40px 0px 40px;
+        padding: 120px 35px 0px 35px;
         height: auto;
     }
 
@@ -3724,9 +3785,33 @@
     .mobile_menu_area {
         display: block;
     }
+
+    .simple-bar-graph__caption {
+        display: none;
+    }
+
+    .simple-bar-graph__columns {
+        padding-bottom: 0;
+    }
+
+    .wsus__dashboard_graph {
+        margin-bottom: 25px;
+    }
+
+    .wsus__courses_sidebar_video {
+        height: 310px;
+    }
+
+    .wsus__courses_instructor_img {
+        height: 390px;
+    }
+
+    .product_slider_large_item {
+        height: 640px;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767.99px) {
+@media (min-width: 576px) and (max-width: 767px) {
 
     /*===========================
         HOME PAGE 01 START
@@ -4221,7 +4306,7 @@
     }
 
     .wsus__courses_sidebar_video {
-        height: 320px;
+        height: 350px;
     }
 
     /*==========================
@@ -4706,12 +4791,12 @@
     }
 
     .wsus__dashboard_profile {
-        padding: 20px;
+        padding: 25px;
     }
 
     .wsus__dashboard_profile .text {
         margin-left: 30px;
-        width: 76%;
+        width: 100%;
     }
 
     .wsus__dashboard_notification label {
@@ -4941,7 +5026,7 @@
     }
 
     .wsus__banner_3 {
-        padding: 120px 10px 0px 10px;
+        padding: 120px 35px 0px 35px;
         height: auto;
     }
 
@@ -4961,7 +5046,7 @@
     }
 
     .wsus__banner_3_img .img {
-        height: 455px;
+        height: 415px;
     }
 
     .wsus__banner_features {
@@ -5255,6 +5340,18 @@
     =============================*/
     .mobile_menu_area {
         display: block;
+    }
+
+    .simple-bar-graph__caption {
+        display: none;
+    }
+
+    .simple-bar-graph__columns {
+        padding-bottom: 0;
+    }
+
+    .wsus__courses_instructor_img {
+        height: 630px;
     }
 }
 
@@ -5756,6 +5853,11 @@
     .wsus__courses_overview ul li,
     .wsus__courses_overview ol li {
         width: 100%;
+        font-size: 14px;
+    }
+
+    .wsus__courses_sidebar_video {
+        height: auto;
     }
 
     .wsus__courses_sidebar {
@@ -6573,6 +6675,7 @@
     .wsus__hotline_text .call,
     .wsus__hotline_text .mail {
         text-align: center;
+        width: 100%;
     }
 
     .wsus__hotline_text .or {
@@ -6990,5 +7093,22 @@
     =============================*/
     .mobile_menu_area {
         display: block;
+    }
+
+    .simple-bar-graph__caption {
+        display: none;
+    }
+
+    .simple-bar-graph__columns {
+        padding-bottom: 0;
+    }
+
+    .course_details_breadcrumb .list li {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    .wsus__courses_instructor_img {
+        height: auto;
     }
 }
