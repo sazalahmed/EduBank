@@ -1280,6 +1280,10 @@
     .wsus__courses_sidebar_video {
         height: 230px;
     }
+
+    .wsus__product_details_img {
+        margin-right: 0px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -2412,6 +2416,10 @@
 
     .wsus__courses_instructor_img {
         height: 215px;
+    }
+
+    .wsus__product_details_img {
+        margin-right: 20px;
     }
 }
 
@@ -5353,6 +5361,10 @@
     .wsus__courses_instructor_img {
         height: 630px;
     }
+
+    .wsus__product_details_img {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 575.99px) {
@@ -7110,5 +7122,9 @@
 
     .wsus__courses_instructor_img {
         height: auto;
+    }
+
+    .wsus__product_details_img {
+        margin-right: 0;
     }
 }
